@@ -38,12 +38,12 @@
 <line x1="120.00" y1="580.00" x2="1135.00" y2="580.00" stroke="#6B7788" stroke-width="1.5" />
 <text x="627.50" y="644.00" fill="#253044" font-size="20" font-weight="600" text-anchor="middle" >Samples per Job (N)</text>
 <text x="0.00" y="0.00" fill="#253044" font-size="20" font-weight="600" text-anchor="middle" transform="translate(32 362.5) rotate(-90)">Median Total Job Time (ms)</text>
-<polyline points="170.00,480.63 470.00,419.98 770.00,338.69" fill="none" stroke="#3B4453" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="170.00,480.63 470.00,419.98 770.00,338.69 1070.00,186.10" fill="none" stroke="#3B4453" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="170.00" cy="480.63" r="5.5" fill="#3B4453" stroke="white" stroke-width="1.5"/>
 <circle cx="470.00" cy="419.98" r="5.5" fill="#3B4453" stroke="white" stroke-width="1.5"/>
 <circle cx="1070.00" cy="186.10" r="5.5" fill="#3B4453" stroke="white" stroke-width="1.5"/>
 <circle cx="770.00" cy="338.69" r="5.5" fill="#3B4453" stroke="white" stroke-width="1.5"/>
-<polyline points="170.00,337.15 470.00,343.45 770.00,331.97" fill="none" stroke="#D55E00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="170.00,337.15 470.00,343.45 770.00,331.97 1070.00,302.62" fill="none" stroke="#D55E00" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="170.00" cy="337.15" r="5.5" fill="#D55E00" stroke="white" stroke-width="1.5"/>
 <circle cx="470.00" cy="343.45" r="5.5" fill="#D55E00" stroke="white" stroke-width="1.5"/>
 <circle cx="1070.00" cy="302.62" r="5.5" fill="#D55E00" stroke="white" stroke-width="1.5"/>

@@ -162,9 +162,9 @@ def cold_figure(coarse: dict[int, dict[str, str]], refinement: dict[int, dict[st
     axes(parts, xs, [0, 100, 200, 300, 400, 500], yfn,
          "Samples per Job (N)", "Median Total Job Time (ms)",
          "Process-cold, file-cache-warm; N=16 bars show audited IQR widths centered on medians.")
-    # Do not connect N=16 to 32: a connecting pair would imply an interpolated crossing.
+    # Connect measured points for readability; do not infer an exact crossover.
     for values, color in ((cpu, CPU), (gpu, GPU)):
-        series(parts, xs, values, yfn, color, [[1, 8, 16]])
+        series(parts, xs, values, yfn, color, [[1, 8, 16, 32]])
     for offset, median, width, color in ((-12, cpu[16], cpu_iqr, CPU),
                                           (12, gpu[16], gpu_iqr, GPU)):
         x = xs[16] + offset
