@@ -51,10 +51,10 @@ def plot(name: str, title: str, ylabel: str, lines: list[tuple[str, str, list[fl
              '<g font-family="Arial, Helvetica, sans-serif">',
              txt(LEFT, 53, title, 31, weight=700)]
     for idx, (label, color, _) in enumerate(lines):
-        lx = LEFT + idx * 320
-        parts.append(f'<line x1="{lx}" y1="116" x2="{lx+30}" y2="116" stroke="{color}" stroke-width="4"/>')
-        parts.append(f'<circle cx="{lx+15}" cy="116" r="5" fill="{color}"/>')
-        parts.append(txt(lx + 40, 122, label, 17))
+        lx = LEFT + idx * (420 if len(lines) == 2 else 320)
+        parts.append(f'<line x1="{lx}" y1="116" x2="{lx+42}" y2="116" stroke="{color}" stroke-width="5"/>')
+        parts.append(f'<circle cx="{lx+21}" cy="116" r="6.5" fill="{color}"/>')
+        parts.append(txt(lx + 55, 124, label, 22))
     for value in yticks:
         y = ycoord(value)
         parts.append(f'<line x1="{LEFT}" y1="{y:.2f}" x2="{RIGHT}" y2="{y:.2f}" stroke="#E5E9EF" stroke-width="1"/>')

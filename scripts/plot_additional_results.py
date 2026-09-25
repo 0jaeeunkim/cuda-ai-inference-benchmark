@@ -89,9 +89,9 @@ def shell(aria: str) -> list[str]:
 
 def legend(parts: list[str], labels: tuple[str, str]) -> None:
     for x, label, color in ((LEFT, labels[0], CPU), (LEFT + 310, labels[1], GPU)):
-        parts.extend((line(x, 116, x + 30, 116, color, 4),
-                      f'<circle cx="{x+15}" cy="116" r="5" fill="{color}"/>',
-                      text(x + 40, 122, label, 17)))
+        parts.extend((line(x, 116, x + 42, 116, color, 5),
+                      f'<circle cx="{x+21}" cy="116" r="6.5" fill="{color}"/>',
+                      text(x + 55, 124, label, 22)))
 
 
 def axes(parts: list[str], xs: dict[int, float], ticks: list[float], yfn,
@@ -155,10 +155,10 @@ def cold_figure(coarse: dict[int, dict[str, str]], refinement: dict[int, dict[st
                       17, MUTED, "middle"))
     legend(parts, ("CPU", "GPU"))
     # The summary has IQR widths, not Q1/Q3; identify centered whiskers in the legend.
-    parts.extend((line(795, 106, 795, 126, MUTED, 1.7),
-                  line(789, 106, 801, 106, MUTED, 1.7),
-                  line(789, 126, 801, 126, MUTED, 1.7),
-                  text(815, 122, "Centered IQR width at N=16", 17, MUTED)))
+    parts.extend((line(795, 103, 795, 129, MUTED, 2),
+                  line(788, 103, 802, 103, MUTED, 2),
+                  line(788, 129, 802, 129, MUTED, 2),
+                  text(815, 124, "Centered IQR width at N=16", 20, MUTED)))
     axes(parts, xs, [0, 100, 200, 300, 400, 500], yfn,
          "Samples per Job (N)", "Median Total Job Time (ms)",
          "Process-cold, file-cache-warm; N=16 bars show audited IQR widths centered on medians.")
