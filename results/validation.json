@@ -1,0 +1,156 @@
+{
+  "cpu": {
+    "1": {
+      "attention_mask_sum": 12,
+      "input_ids_sum": 40144,
+      "input_shape": [
+        1,
+        64
+      ],
+      "logits_shape": [
+        1,
+        2
+      ],
+      "passed": true,
+      "predicted_labels": [
+        1
+      ]
+    },
+    "8": {
+      "attention_mask_sum": 135,
+      "input_ids_sum": 565444,
+      "input_shape": [
+        8,
+        64
+      ],
+      "logits_shape": [
+        8,
+        2
+      ],
+      "passed": true,
+      "predicted_labels": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  },
+  "gpu": {
+    "1": {
+      "cpu_predicted_labels": [
+        1
+      ],
+      "gpu_logits_finite": true,
+      "gpu_logits_shape": [
+        1,
+        2
+      ],
+      "gpu_predicted_labels": [
+        1
+      ],
+      "max_abs_logits_difference": 9.5367431640625e-07,
+      "passed": true,
+      "prediction_match": true,
+      "selected_row_indices": [
+        0
+      ],
+      "tokenized_input_match": true
+    },
+    "8": {
+      "cpu_predicted_labels": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "gpu_logits_finite": true,
+      "gpu_logits_shape": [
+        8,
+        2
+      ],
+      "gpu_predicted_labels": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "max_abs_logits_difference": 9.5367431640625e-07,
+      "passed": true,
+      "prediction_match": true,
+      "selected_row_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "tokenized_input_match": true
+    }
+  },
+  "length_status": "primary fixed length selected by user",
+  "m3": {
+    "measured_iterations_per_condition": 30,
+    "passed": true,
+    "raw_rows_in_session": 180,
+    "session_id": "a5414b2b665b4fd49c5777a1d8cf8884",
+    "summary_for_report_only": {
+      "1": {
+        "cpu": {
+          "count": 30,
+          "median_ms": 10.687498999999999,
+          "p95_ms": 10.935727
+        },
+        "gpu_end_to_end": {
+          "count": 30,
+          "median_ms": 1.370438,
+          "p95_ms": 1.398215
+        },
+        "gpu_inference_only": {
+          "count": 30,
+          "median_ms": 1.6964319944381714,
+          "p95_ms": 1.7758400440216064
+        }
+      },
+      "8": {
+        "cpu": {
+          "count": 30,
+          "median_ms": 56.5004535,
+          "p95_ms": 57.976563
+        },
+        "gpu_end_to_end": {
+          "count": 30,
+          "median_ms": 2.84291,
+          "p95_ms": 2.915588
+        },
+        "gpu_inference_only": {
+          "count": 30,
+          "median_ms": 3.1455200910568237,
+          "p95_ms": 3.196959972381592
+        }
+      }
+    },
+    "timing_boundary": {
+      "cpu": "perf_counter_ns around CPU forward only",
+      "gpu_end_to_end": "synchronized perf_counter_ns: pretokenized CPU input copy into preallocated GPU buffers, forward, logits D2H copy into preallocated CPU buffer, final synchronize",
+      "gpu_inference_only": "CUDA Events around forward with resident GPU inputs; end event synchronized before elapsed_time"
+    },
+    "warmup_iterations_per_path": 5
+  },
+  "sequence_length": 64
+}

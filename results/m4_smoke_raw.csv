@@ -1,0 +1,13 @@
+session_id,timestamp_utc,protocol,batch_size,sequence_length,run,measurement_type,pair_id,execution_order,position,latency_ms,latency_per_sample_ms,throughput_samples_per_sec,prediction_match
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:51.674264+00:00,m4_cpu_separate_gpu_balanced_v1,1,64,1,cpu,,,,10.990550000,10.990550000,90.987257235,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:51.685369+00:00,m4_cpu_separate_gpu_balanced_v1,1,64,2,cpu,,,,11.009967000,11.009967000,90.826793577,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.028202+00:00,m4_cpu_separate_gpu_balanced_v1,8,64,1,cpu,,,,56.316244000,7.039530500,142.054928237,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.085152+00:00,m4_cpu_separate_gpu_balanced_v1,8,64,2,cpu,,,,56.872701000,7.109087625,140.665026618,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.118898+00:00,m4_cpu_separate_gpu_balanced_v1,1,64,1,gpu_inference_only,1,A->B,1,1.239328027,1.239328027,806.888877197,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.120238+00:00,m4_cpu_separate_gpu_balanced_v1,1,64,1,gpu_end_to_end,1,A->B,2,1.280254000,1.280254000,781.095001461,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.121551+00:00,m4_cpu_separate_gpu_balanced_v1,1,64,2,gpu_end_to_end,2,B->A,1,1.286605000,1.286605000,777.239323646,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.122841+00:00,m4_cpu_separate_gpu_balanced_v1,1,64,2,gpu_inference_only,2,B->A,2,1.257503986,1.257503986,795.226107311,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.184017+00:00,m4_cpu_separate_gpu_balanced_v1,8,64,1,gpu_end_to_end,1,B->A,1,2.754476000,0.344309500,2904.363661183,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.186812+00:00,m4_cpu_separate_gpu_balanced_v1,8,64,1,gpu_inference_only,1,B->A,2,2.752192020,0.344024003,2906.773924441,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.189580+00:00,m4_cpu_separate_gpu_balanced_v1,8,64,2,gpu_inference_only,2,A->B,1,2.734944105,0.341868013,2925.105483853,True
+5f10d0165afb44688ea3fabf6de8f52f,2026-09-25T13:04:52.192374+00:00,m4_cpu_separate_gpu_balanced_v1,8,64,2,gpu_end_to_end,2,A->B,2,2.766449000,0.345806125,2891.793776065,True

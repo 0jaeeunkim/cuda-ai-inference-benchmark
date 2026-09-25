@@ -1,0 +1,27 @@
+{
+  "session_id": "efb3e675224644b4be20f2875c37e605",
+  "source_raw_path": "results/primary_raw_runs.csv",
+  "source_raw_sha256": "c1433d8a93319f2c7f6330b3a3f962c9b23c23014e3ad8eadec0bf15b7e82ded",
+  "source_session_metadata_path": "results/full_session_efb3e675224644b4be20f2875c37e605.json",
+  "summary_path": "results/summary.csv",
+  "summary_sha256": "ed76b9ec0616587b021cb2c561ed6fed1fa13aad4cc7141fb325716f4627c317",
+  "source_rows_in_session": 630,
+  "all_gpu_orders_pooled": true,
+  "measurements_per_batch_path": 30,
+  "p95_method": "nearest rank; 29th sorted measurement of 30",
+  "throughput_definition": "batch_size * 1000 / median_batch_latency_ms",
+  "speedup_definition": "CPU median batch latency / GPU median batch latency",
+  "e2e_excess_definition": "E2E median - inference-only median; not pure transfer time",
+  "e2e_relative_overhead_definition": "100 * (E2E median - inference-only median) / E2E median",
+  "crossover_definition": "smallest tested batch with GPU median below CPU median; no interpolation",
+  "crossovers": {
+    "gpu_inference_only": {
+      "first_tested_batch_with_gpu_below_cpu": 1,
+      "observed_transition_within_tested_range": false
+    },
+    "gpu_end_to_end": {
+      "first_tested_batch_with_gpu_below_cpu": 1,
+      "observed_transition_within_tested_range": false
+    }
+  }
+}

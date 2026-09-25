@@ -1,0 +1,106 @@
+{
+  "batch_sizes_primary_planned": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "batch_sizes_prototype": [
+    1,
+    8
+  ],
+  "cpu_interop_threads": 16,
+  "cpu_model": "AMD Ryzen 7 9700X 8-Core Processor",
+  "cpu_threads": 8,
+  "cuda_available": true,
+  "cuda_fp32_matmul_smoke": "passed",
+  "cuda_matmul_allow_tf32": false,
+  "cuda_toolkit_nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Wed_Apr__9_19:24:57_PDT_2025\nCuda compilation tools, release 12.9, V12.9.41\nBuild cuda_12.9.r12.9/compiler.35813241_0",
+  "cudnn_allow_tf32": false,
+  "cudnn_version": 92000,
+  "dataset_config": "sst2",
+  "dataset_id": "nyu-mll/glue",
+  "dataset_revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+  "dataset_split": "validation",
+  "dtype": "float32",
+  "e2e_allocation_policy": "preallocated host output and GPU input buffers outside timed interval",
+  "e2e_host_memory": "pageable",
+  "float32_matmul_precision": "highest",
+  "gpu_compute_capability": [
+    12,
+    0
+  ],
+  "gpu_memory_bytes": 16609247232,
+  "gpu_model": "NVIDIA GeForce RTX 5080",
+  "logical_cpus": 16,
+  "measured_iterations": 30,
+  "model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+  "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "nvidia_smi": "580.178.04, NVIDIA GeForce RTX 5080, 16303 MiB",
+  "nvidia_smi_cuda_version": "Thu Sep 24 17:40:28 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5080        Off |   00000000:01:00.0 Off |                  N/A |\n|  0%   39C    P8             15W /  360W |     369MiB /  16303MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            1408      G   /usr/lib/xorg/Xorg                        4MiB |\n|    0   N/A  N/A          202840      C   .venv/bin/python                        346MiB |\n+-----------------------------------------------------------------------------------------+",
+  "os": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"",
+  "packages": {
+    "datasets": "5.0.1",
+    "huggingface-hub": "1.32.0",
+    "tokenizers": "0.23.2",
+    "torch": "2.12.0",
+    "transformers": "5.16.1"
+  },
+  "pool_count": 872,
+  "pool_fingerprint": "0e2b00033b48693f",
+  "pool_selection": "all validation rows in published order; each batch uses prefix rows 0..batch_size-1",
+  "primary_length_decision_recorded_at_utc": "2026-09-24T08:48:36.316433+00:00",
+  "primary_length_reason": "64 preserves all 872 SST-2 validation samples; 32 truncates 208 (23.85%), and 128 adds unnecessary padding",
+  "primary_sequence_length": 64,
+  "prototype_length_status": "primary fixed length selected by user",
+  "prototype_sequence_length": 64,
+  "python": "3.10.20",
+  "python_executable": "/home/dhlee/jekim/cuda26f/project1/cuda-ai-crossover/.venv/bin/python",
+  "recorded_at_utc": "2026-09-24T08:40:28.872923+00:00",
+  "tf32_enabled": false,
+  "token_lengths": {
+    "candidate_lengths": [
+      32,
+      64,
+      128
+    ],
+    "count": 872,
+    "fits_without_truncation": {
+      "128": 872,
+      "32": 664,
+      "64": 872
+    },
+    "max": 55,
+    "median": 24.5,
+    "p90": 40,
+    "p95": 44,
+    "percentile_method": "nearest rank (median is conventional midpoint)",
+    "primary_length_selected": true,
+    "recommendation_rule": "smallest candidate covering at least p95",
+    "recommended_length": 64,
+    "truncation_rate_percent": {
+      "128": 0.0,
+      "32": 23.853211009174313,
+      "64": 0.0
+    }
+  },
+  "tokenizer_class": "BertTokenizer",
+  "tokenizer_revision": null,
+  "torch_cuda_arch_list": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "torch_cuda_runtime": "13.0",
+  "torch_get_num_interop_threads": 16,
+  "torch_get_num_threads": 8,
+  "torch_version": "2.12.0+cu130",
+  "warmup_iterations": 5
+}

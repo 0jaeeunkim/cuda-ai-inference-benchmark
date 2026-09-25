@@ -1,0 +1,44 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Downloaded model and dataset caches
+.cache/
+.huggingface/
+huggingface/
+**/huggingface/cache/
+**/datasets/cache/
+**/transformers/cache/
+
+# Local build/package artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+*.log
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.p12
+*.pfx

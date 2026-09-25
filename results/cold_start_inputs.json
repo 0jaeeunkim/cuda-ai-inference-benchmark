@@ -1,0 +1,11 @@
+{
+  "artifact_path": "results/cold_start_inputs.pt",
+  "artifact_sha256": "1b7a7fcc456eda9adb6fe3c3ff2d0dc29ff7401294d0fcf92b9b84c73347037e",
+  "dataset_revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+  "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "pool_fingerprint": "0e2b00033b48693f",
+  "sample_count": 872,
+  "sample_selection": "published validation order; each job uses prefix 0..N-1",
+  "sequence_length": 64,
+  "tokenization": "truncation=True, padding=max_length, max_length=64"
+}

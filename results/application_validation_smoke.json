@@ -1,0 +1,132 @@
+{
+  "batch_sizes": [
+    1,
+    8,
+    32,
+    64
+  ],
+  "correctness": {
+    "1": {
+      "checked_forward_invocations_per_path": 2,
+      "checked_samples": 2,
+      "cpu_gpu_prediction_match": true,
+      "passed": true,
+      "prediction_sha256": "47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254",
+      "scope": "first and final batch only"
+    },
+    "32": {
+      "checked_forward_invocations_per_path": 2,
+      "checked_samples": 40,
+      "cpu_gpu_prediction_match": true,
+      "passed": true,
+      "prediction_sha256": "a1b4324cfcb1ecaa36e92dd16d8a2062105a4e0aedd05e98bb0625b5e372abdf",
+      "scope": "first and final batch only"
+    },
+    "64": {
+      "checked_forward_invocations_per_path": 2,
+      "checked_samples": 104,
+      "cpu_gpu_prediction_match": true,
+      "passed": true,
+      "prediction_sha256": "c4147a61aaa4663724143e491bb94c4b7e00cece85359016ada48c683031379b",
+      "scope": "first and final batch only"
+    },
+    "8": {
+      "checked_forward_invocations_per_path": 2,
+      "checked_samples": 16,
+      "cpu_gpu_prediction_match": true,
+      "passed": true,
+      "prediction_sha256": "c06281bb2f553dc3e0af867f6f9c090b89586238b040d5b98bcc0f976f822019",
+      "scope": "first and final batch only"
+    }
+  },
+  "coverage": {
+    "1": {
+      "final_batch_size": 1,
+      "forward_invocations": 872,
+      "last_span": [
+        871,
+        872
+      ],
+      "sample_count": 872,
+      "unique_rows_covered_once": true
+    },
+    "32": {
+      "final_batch_size": 8,
+      "forward_invocations": 28,
+      "last_span": [
+        864,
+        872
+      ],
+      "sample_count": 872,
+      "unique_rows_covered_once": true
+    },
+    "64": {
+      "final_batch_size": 40,
+      "forward_invocations": 14,
+      "last_span": [
+        832,
+        872
+      ],
+      "sample_count": 872,
+      "unique_rows_covered_once": true
+    },
+    "8": {
+      "final_batch_size": 8,
+      "forward_invocations": 109,
+      "last_span": [
+        864,
+        872
+      ],
+      "sample_count": 872,
+      "unique_rows_covered_once": true
+    }
+  },
+  "dataset_revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+  "mode": "smoke",
+  "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "p95_method": "nearest rank; with 5 runs, p95 equals the maximum",
+  "passed": true,
+  "policy": {
+    "buffer_allocation_in_timed_interval": false,
+    "cuda_matmul_allow_tf32": false,
+    "cudnn_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "host_memory": "pageable",
+    "model_dtype": "float32",
+    "model_load_in_timed_interval": false,
+    "sequence_length": 64,
+    "tokenization_in_timed_interval": false,
+    "torch_get_num_interop_threads": 16,
+    "torch_get_num_threads": 8
+  },
+  "pool_fingerprint": "0e2b00033b48693f",
+  "preserved_evidence_sha256": {
+    "results/analysis.md": "02387f86917bb2d5064005d286709361ee861f965a4b43c84ae083d0854cad36",
+    "results/analysis_metadata.json": "c469b6b144b0d8ab22273d9a3185df622308b5f757cb83828e474c1dc9a88052",
+    "results/m35_diagnostic_raw.csv": "b7e090b0dc7c3a6ebdbcfb6fdb70e5925e20734dfdb5376bcdde6d623344741b",
+    "results/plots/figure1_median_latency.svg": "b8a7dd21fc1c7bae4941d8ed7ec7903bf83798f2748929e5ae3d452e81b60ba6",
+    "results/plots/figure1_median_latency_log.svg": "dc287a46004eeb7cff1230dbe7c37fb9dfc6a92b4e0eef6e254533fba2db9f02",
+    "results/plots/figure2_throughput.svg": "84cc011e5b646829c4dca5be866a8377b0eb3c4ed26eaead649eb404eee30c04",
+    "results/plots/figure3_speedup.svg": "5cc57630d95d2380847f0d28e660fcb3a606e70f6a25958d1f12aedbcdaf46bf",
+    "results/plots/figure4_e2e_relative_overhead.svg": "8f2ae95a5cab60c0f0ee6177f0a96f0c91ec0114c71f585f6cfcf5061724a75a",
+    "results/primary_raw_runs.csv": "c1433d8a93319f2c7f6330b3a3f962c9b23c23014e3ad8eadec0bf15b7e82ded",
+    "results/raw_runs.csv": "da525d4da24ddff13d7f87eec712029375f4416a27f3a11f6da946d2f64bf908",
+    "results/summary.csv": "ed76b9ec0616587b021cb2c561ed6fed1fa13aad4cc7141fb325716f4627c317"
+  },
+  "protocol": "application_validation_whole_sst2_v1",
+  "protocol_sha256": "5ba78451d74a8fe9b762d86adb37ec5cb5dfd7db23fe2b304a59b04983a65556",
+  "raw_path": null,
+  "raw_rows_in_session": 0,
+  "recorded_at_utc": "2026-09-25T13:41:37.475003+00:00",
+  "repeats_per_path_per_batch": 0,
+  "sample_count": 872,
+  "session_id": null,
+  "summary_path": null,
+  "summary_rows_in_session": 0,
+  "timing_boundaries": {
+    "cpu": "perf_counter_ns around 872-sample CPU forward loop",
+    "excluded": "tokenization, model loading, buffer allocation, correctness, warm-up",
+    "gpu_end_to_end": "synchronized perf_counter_ns around 872-sample loop; each batch copies pageable CPU tokens H2D, runs forward, copies logits D2H into preallocated pageable CPU buffer; final synchronize"
+  },
+  "warmup_per_shape_per_path": 0
+}

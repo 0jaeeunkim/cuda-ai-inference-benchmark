@@ -1,0 +1,47 @@
+{
+  "schema": "cold_start_metadata_corrigendum_v1",
+  "created_at_utc": "2026-09-25T14:48:15.060434+00:00",
+  "purpose": "Append-only correction of cold-start timing-policy metadata; original session JSON and measurements are preserved.",
+  "applies_to_sessions": [
+    {
+      "session_id": "61d2fd112e534e75b85acc7a08aee527",
+      "role": "v2 coarse",
+      "original_session_json": "results/cold_start_coarse_61d2fd112e534e75b85acc7a08aee527.json",
+      "original_session_json_sha256": "bb19fdce9a1ebcd0b5c4ed4a7915cb8471e20847cf7c931b408c237cbb7316a0"
+    },
+    {
+      "session_id": "6ddc295a876f455a9069ba0ede788644",
+      "role": "v2 N=16 refinement",
+      "original_session_json": "results/cold_start_refine_6ddc295a876f455a9069ba0ede788644.json",
+      "original_session_json_sha256": "c98e999edefde5179849981241f9c86829c1e799e32bab6154a171df774a8f94"
+    }
+  ],
+  "superseded_metadata_fields": {
+    "fixed_policy_or_policy.model_load_in_timed_interval": {
+      "original_value": false,
+      "corrected_value": true
+    },
+    "fixed_policy_or_policy.buffer_allocation_in_timed_interval": {
+      "original_value": false,
+      "corrected_scope": "GPU input-buffer allocation is inside timed device_prepare_ms; CPU output-buffer allocation is outside total_job_ms."
+    }
+  },
+  "actual_timing_policy": {
+    "model_load": "inside total_job_ms",
+    "gpu_input_buffer_allocation": "inside timed device_prepare_ms",
+    "cpu_output_buffer_allocation": "outside timed interval",
+    "interpreter_and_import": "outside timed interval",
+    "input_artifact_loading": "outside timed interval",
+    "tokenization": "outside timed interval",
+    "network": "outside timed interval"
+  },
+  "source_code": {
+    "path": "src/cold_start_worker.py",
+    "sha256": "5fcbc3ab5ac9f53d90168561f4c4a8d57e50fe9a246f42efdee8de497814cc2a"
+  },
+  "integrity": {
+    "full_file_sha256_sidecar": "results/cold_start_metadata_corrigendum.sha256",
+    "hash_method": "SHA-256 of exact UTF-8 JSON file bytes; sidecar is separate because a file cannot contain its own full-file hash."
+  },
+  "measurement_impact": "No raw timing or summary value changes; no remeasurement performed."
+}
