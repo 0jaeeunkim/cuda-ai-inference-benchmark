@@ -2,7 +2,6 @@
 <rect width="100%" height="100%" fill="#FFFFFF"/>
 <g font-family="Arial, Helvetica, sans-serif">
 <text x="120.0" y="53.0" fill="#253044" font-size="31" font-weight="700" text-anchor="start" >Batch size vs throughput</text>
-<text x="120.0" y="91.0" fill="#5A6575" font-size="17" font-weight="400" text-anchor="start" >Fixed sequence length 64  |  FP32  |  30 measurements per path and batch</text>
 <line x1="120" y1="116" x2="150" y2="116" stroke="#3B4453" stroke-width="4"/>
 <circle cx="135" cy="116" r="5" fill="#3B4453"/>
 <text x="160.0" y="122.0" fill="#253044" font-size="17" font-weight="400" text-anchor="start" >CPU</text>
@@ -65,7 +64,6 @@
 <circle cx="965.83" cy="217.63" r="5.5" fill="#D55E00" stroke="white" stroke-width="1.5"/>
 <circle cx="1135.00" cy="206.60" r="5.5" fill="#D55E00" stroke="white" stroke-width="1.5"/>
 <text x="627.5" y="644.0" fill="#253044" font-size="20" font-weight="600" text-anchor="middle" >Batch size (samples)</text>
-<text x="32.0" y="362.5" fill="#253044" font-size="20" font-weight="600" text-anchor="middle" transform="rotate(-90 32 362.5)">Throughput (samples/s)</text>
-<text x="120.0" y="688.0" fill="#59677A" font-size="16" font-weight="400" text-anchor="start" >Throughput = batch size / median batch latency; higher is better.</text>
+<text x="0.0" y="0.0" fill="#253044" font-size="20" font-weight="600" text-anchor="middle" transform="translate(32 362.5) rotate(-90)">Throughput (samples/s)</text>
 </g>
 </svg>

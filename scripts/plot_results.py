@@ -49,8 +49,7 @@ def plot(name: str, title: str, ylabel: str, lines: list[tuple[str, str, list[fl
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-label="{esc(title)}">',
              '<rect width="100%" height="100%" fill="#FFFFFF"/>',
              '<g font-family="Arial, Helvetica, sans-serif">',
-             txt(LEFT, 53, title, 31, weight=700),
-             txt(LEFT, 91, "Fixed sequence length 64  |  FP32  |  30 measurements per path and batch", 17, "#5A6575")]
+             txt(LEFT, 53, title, 31, weight=700)]
     for idx, (label, color, _) in enumerate(lines):
         lx = LEFT + idx * 320
         parts.append(f'<line x1="{lx}" y1="116" x2="{lx+30}" y2="116" stroke="{color}" stroke-width="4"/>')
@@ -81,9 +80,8 @@ def plot(name: str, title: str, ylabel: str, lines: list[tuple[str, str, list[fl
             x, y = xcoord(batch), ycoord(value)
             parts.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="5.5" fill="{color}" stroke="white" stroke-width="1.5"/>')
     parts.append(txt((LEFT + RIGHT) / 2, 644, "Batch size (samples)", 20, anchor="middle", weight=600))
-    parts.append(txt(32, (TOP + BOTTOM) / 2, ylabel, 20, anchor="middle", weight=600,
-                     extra=f'transform="rotate(-90 32 {(TOP + BOTTOM) / 2:.1f})"'))
-    parts.append(txt(LEFT, 688, caption, 16, "#59677A"))
+    parts.append(txt(0, 0, ylabel, 20, anchor="middle", weight=600,
+                     extra=f'transform="translate(32 {(TOP + BOTTOM) / 2:.1f}) rotate(-90)"'))
     parts.extend(["</g>", "</svg>"])
     (OUT / name).write_text("\n".join(parts) + "\n")
 
