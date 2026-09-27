@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img">
+<title>CPU-to-GPU speedup</title>
+<desc>Speedup is CPU median batch latency divided by GPU median batch latency.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Liberation Sans, Arial, sans-serif">
+<text x="120.00" y="57.00" fill="#27313D" font-size="36" font-weight="600" text-anchor="start" >CPU-to-GPU speedup</text>
+<line x1="120.00" y1="570.00" x2="1100.00" y2="570.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="570.00" x2="120.00" y2="570.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="578.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >0</text>
+<line x1="120.00" y1="510.00" x2="1100.00" y2="510.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="510.00" x2="120.00" y2="510.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="518.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >5</text>
+<line x1="120.00" y1="450.00" x2="1100.00" y2="450.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="450.00" x2="120.00" y2="450.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="458.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >10</text>
+<line x1="120.00" y1="390.00" x2="1100.00" y2="390.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="390.00" x2="120.00" y2="390.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="398.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >15</text>
+<line x1="120.00" y1="330.00" x2="1100.00" y2="330.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="330.00" x2="120.00" y2="330.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="338.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >20</text>
+<line x1="120.00" y1="270.00" x2="1100.00" y2="270.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="270.00" x2="120.00" y2="270.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="278.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >25</text>
+<line x1="120.00" y1="210.00" x2="1100.00" y2="210.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="210.00" x2="120.00" y2="210.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="218.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >30</text>
+<line x1="120.00" y1="150.00" x2="1100.00" y2="150.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="150.00" x2="120.00" y2="150.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="158.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >35</text>
+<line x1="120.00" y1="570.00" x2="120.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="120.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >1</text>
+<line x1="283.33" y1="570.00" x2="283.33" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="283.33" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >2</text>
+<line x1="446.67" y1="570.00" x2="446.67" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="446.67" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >4</text>
+<line x1="610.00" y1="570.00" x2="610.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="610.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >8</text>
+<line x1="773.33" y1="570.00" x2="773.33" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="773.33" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >16</text>
+<line x1="936.67" y1="570.00" x2="936.67" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="936.67" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >32</text>
+<line x1="1100.00" y1="570.00" x2="1100.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="1100.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >64</text>
+<line x1="120.00" y1="150.00" x2="120.00" y2="570.00" stroke="#27313D" stroke-width="1.4" />
+<line x1="120.00" y1="570.00" x2="1100.00" y2="570.00" stroke="#27313D" stroke-width="1.4" />
+<text x="610.00" y="660.00" fill="#27313D" font-size="29" font-weight="600" text-anchor="middle" >Batch size</text>
+<text x="0.00" y="0.00" fill="#27313D" font-size="29" font-weight="600" text-anchor="middle" transform="translate(37 360.00) rotate(-90)">CPU median / GPU median (×)</text>
+<line x1="120.00" y1="558.00" x2="1100.00" y2="558.00" stroke="#8B949E" stroke-width="1.6" stroke-dasharray="6 5"/>
+<text x="1095.00" y="547.00" fill="#566273" font-size="21" font-weight="400" text-anchor="end" >1× parity</text>
+<line x1="120.00" y1="105.00" x2="157.00" y2="105.00" stroke="#0072B2" stroke-width="2.8" stroke-dasharray="7 5"/>
+<rect x="133.50" y="100.00" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="legend" data-condition="0" data-value="0.000000000"/>
+<text x="170.00" y="114.00" fill="#27313D" font-size="25" font-weight="400" text-anchor="start" >GPU inference-only</text>
+<line x1="575.00" y1="105.00" x2="612.00" y2="105.00" stroke="#C65D12" stroke-width="2.8" />
+<polygon points="593.50,99.00 599.50,105.00 593.50,111.00 587.50,105.00" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="legend" data-condition="0" data-value="0.000000000"/>
+<text x="625.00" y="114.00" fill="#27313D" font-size="25" font-weight="400" text-anchor="start" >GPU E2E</text>
+<polyline points="120.00,465.26 283.33,438.43 446.67,390.71 610.00,325.37 773.33,262.89 936.67,210.13 1100.00,197.93" fill="none" stroke="#0072B2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<rect x="115.00" y="460.26" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="1" data-value="8.728458530"/>
+<rect x="278.33" y="433.43" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="2" data-value="10.963861387"/>
+<rect x="441.67" y="385.71" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="4" data-value="14.941127948"/>
+<rect x="605.00" y="320.37" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="8" data-value="20.385985556"/>
+<rect x="768.33" y="257.89" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="16" data-value="25.592669011"/>
+<rect x="931.67" y="205.13" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="32" data-value="29.989513797"/>
+<rect x="1095.00" y="192.93" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="64" data-value="31.005996808"/>
+<polyline points="120.00,467.89 283.33,441.13 446.67,393.60 610.00,327.99 773.33,265.47 936.67,212.14 1100.00,199.18" fill="none" stroke="#C65D12" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="120.00,461.89 126.00,467.89 120.00,473.89 114.00,467.89" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="1" data-value="8.509330263"/>
+<polygon points="283.33,435.13 289.33,441.13 283.33,447.13 277.33,441.13" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="2" data-value="10.739131793"/>
+<polygon points="446.67,387.60 452.67,393.60 446.67,399.60 440.67,393.60" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="4" data-value="14.700323396"/>
+<polygon points="610.00,321.99 616.00,327.99 610.00,333.99 604.00,327.99" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="8" data-value="20.167103382"/>
+<polygon points="773.33,259.47 779.33,265.47 773.33,271.47 767.33,265.47" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="16" data-value="25.377407046"/>
+<polygon points="936.67,206.14 942.67,212.14 936.67,218.14 930.67,212.14" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="32" data-value="29.821794431"/>
+<polygon points="1100.00,193.18 1106.00,199.18 1100.00,205.18 1094.00,199.18" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="64" data-value="30.901894189"/>
+</g>
+</svg>

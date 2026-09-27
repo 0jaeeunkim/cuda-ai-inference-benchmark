@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img">
+<title>Full 872-sample execution time</title>
+<desc>Complete 872-sample validation workload, including the final partial batch; median of five runs per path and batch.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Liberation Sans, Arial, sans-serif">
+<text x="120.00" y="57.00" fill="#27313D" font-size="36" font-weight="600" text-anchor="start" >Full 872-sample execution time</text>
+<line x1="120.00" y1="570.00" x2="1100.00" y2="570.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="570.00" x2="120.00" y2="570.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="578.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >0</text>
+<line x1="120.00" y1="486.00" x2="1100.00" y2="486.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="486.00" x2="120.00" y2="486.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="494.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >2</text>
+<line x1="120.00" y1="402.00" x2="1100.00" y2="402.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="402.00" x2="120.00" y2="402.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="410.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >4</text>
+<line x1="120.00" y1="318.00" x2="1100.00" y2="318.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="318.00" x2="120.00" y2="318.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="326.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >6</text>
+<line x1="120.00" y1="234.00" x2="1100.00" y2="234.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="234.00" x2="120.00" y2="234.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="242.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >8</text>
+<line x1="120.00" y1="150.00" x2="1100.00" y2="150.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="150.00" x2="120.00" y2="150.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="158.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >10</text>
+<line x1="165.00" y1="570.00" x2="165.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="165.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >1</text>
+<line x1="460.00" y1="570.00" x2="460.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="460.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >8</text>
+<line x1="755.00" y1="570.00" x2="755.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="755.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >32</text>
+<line x1="1050.00" y1="570.00" x2="1050.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="1050.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >64</text>
+<line x1="120.00" y1="150.00" x2="120.00" y2="570.00" stroke="#27313D" stroke-width="1.4" />
+<line x1="120.00" y1="570.00" x2="1100.00" y2="570.00" stroke="#27313D" stroke-width="1.4" />
+<text x="610.00" y="660.00" fill="#27313D" font-size="29" font-weight="600" text-anchor="middle" >Batch size</text>
+<text x="0.00" y="0.00" fill="#27313D" font-size="29" font-weight="600" text-anchor="middle" transform="translate(37 360.00) rotate(-90)">Total execution time (s)</text>
+<line x1="120.00" y1="105.00" x2="157.00" y2="105.00" stroke="#303A46" stroke-width="2.8" />
+<circle cx="138.50" cy="105.00" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="legend" data-condition="0" data-value="0.000000000"/>
+<text x="170.00" y="114.00" fill="#27313D" font-size="25" font-weight="400" text-anchor="start" >CPU</text>
+<line x1="575.00" y1="105.00" x2="612.00" y2="105.00" stroke="#C65D12" stroke-width="2.8" />
+<polygon points="593.50,99.00 599.50,105.00 593.50,111.00 587.50,105.00" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="legend" data-condition="0" data-value="0.000000000"/>
+<text x="625.00" y="114.00" fill="#27313D" font-size="25" font-weight="400" text-anchor="start" >GPU E2E</text>
+<polyline points="165.00,167.54 460.00,311.70 755.00,310.49 1050.00,305.98" fill="none" stroke="#303A46" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="165.00" cy="167.54" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="1" data-value="9.582379020"/>
+<circle cx="460.00" cy="311.70" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="8" data-value="6.149906531"/>
+<circle cx="755.00" cy="310.49" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="32" data-value="6.178828113"/>
+<circle cx="1050.00" cy="305.98" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="64" data-value="6.286204405"/>
+<polyline points="165.00,524.04 460.00,557.38 755.00,561.19 1050.00,561.47" fill="none" stroke="#C65D12" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="165.00,518.04 171.00,524.04 165.00,530.04 159.00,524.04" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="1" data-value="1.094322902"/>
+<polygon points="460.00,551.38 466.00,557.38 460.00,563.38 454.00,557.38" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="8" data-value="0.300426335"/>
+<polygon points="755.00,555.19 761.00,561.19 755.00,567.19 749.00,561.19" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="32" data-value="0.209705028"/>
+<polygon points="1050.00,555.47 1056.00,561.47 1050.00,567.47 1044.00,561.47" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="64" data-value="0.202991650"/>
+<line x1="1082.00" y1="305.98" x2="1082.00" y2="561.47" stroke="#566273" stroke-width="1.4" />
+<line x1="1076.00" y1="305.98" x2="1088.00" y2="305.98" stroke="#566273" stroke-width="1.4" />
+<line x1="1076.00" y1="561.47" x2="1088.00" y2="561.47" stroke="#566273" stroke-width="1.4" />
+<text x="1067.00" y="439.73" fill="#27313D" font-size="24" font-weight="600" text-anchor="end" >30.97× speedup</text>
+</g>
+</svg>

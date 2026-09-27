@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img">
+<title>GPU E2E relative excess</title>
+<desc>100 × (E2E median − inference-only median) / E2E median; not isolated transfer time.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Liberation Sans, Arial, sans-serif">
+<text x="120.00" y="57.00" fill="#27313D" font-size="36" font-weight="600" text-anchor="start" >GPU E2E relative excess</text>
+<line x1="120.00" y1="570.00" x2="1100.00" y2="570.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="570.00" x2="120.00" y2="570.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="578.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >0</text>
+<line x1="120.00" y1="500.00" x2="1100.00" y2="500.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="500.00" x2="120.00" y2="500.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="508.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >0.5</text>
+<line x1="120.00" y1="430.00" x2="1100.00" y2="430.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="430.00" x2="120.00" y2="430.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="438.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >1</text>
+<line x1="120.00" y1="360.00" x2="1100.00" y2="360.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="360.00" x2="120.00" y2="360.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="368.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >1.5</text>
+<line x1="120.00" y1="290.00" x2="1100.00" y2="290.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="290.00" x2="120.00" y2="290.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="298.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >2</text>
+<line x1="120.00" y1="220.00" x2="1100.00" y2="220.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="220.00" x2="120.00" y2="220.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="228.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >2.5</text>
+<line x1="120.00" y1="150.00" x2="1100.00" y2="150.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="150.00" x2="120.00" y2="150.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="158.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >3</text>
+<line x1="120.00" y1="570.00" x2="120.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="120.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >1</text>
+<line x1="283.33" y1="570.00" x2="283.33" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="283.33" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >2</text>
+<line x1="446.67" y1="570.00" x2="446.67" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="446.67" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >4</text>
+<line x1="610.00" y1="570.00" x2="610.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="610.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >8</text>
+<line x1="773.33" y1="570.00" x2="773.33" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="773.33" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >16</text>
+<line x1="936.67" y1="570.00" x2="936.67" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="936.67" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >32</text>
+<line x1="1100.00" y1="570.00" x2="1100.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="1100.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >64</text>
+<line x1="120.00" y1="150.00" x2="120.00" y2="570.00" stroke="#27313D" stroke-width="1.4" />
+<line x1="120.00" y1="570.00" x2="1100.00" y2="570.00" stroke="#27313D" stroke-width="1.4" />
+<text x="610.00" y="660.00" fill="#27313D" font-size="29" font-weight="600" text-anchor="middle" >Batch size</text>
+<text x="0.00" y="0.00" fill="#27313D" font-size="29" font-weight="600" text-anchor="middle" transform="translate(37 360.00) rotate(-90)">Relative E2E excess (%)</text>
+<line x1="120.00" y1="105.00" x2="157.00" y2="105.00" stroke="#C65D12" stroke-width="2.8" />
+<polygon points="138.50,99.00 144.50,105.00 138.50,111.00 132.50,105.00" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="legend" data-condition="0" data-value="0.000000000"/>
+<text x="170.00" y="114.00" fill="#27313D" font-size="25" font-weight="400" text-anchor="start" >E2E relative excess</text>
+<polyline points="120.00,218.53 283.33,283.04 446.67,344.36 610.00,419.68 773.33,452.24 936.67,491.70 1100.00,523.00" fill="none" stroke="#C65D12" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="120.00,212.53 126.00,218.53 120.00,224.53 114.00,218.53" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="E2E relative excess" data-condition="1" data-value="2.510503608"/>
+<polygon points="283.33,277.04 289.33,283.04 283.33,289.04 277.33,283.04" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="E2E relative excess" data-condition="2" data-value="2.049730345"/>
+<polygon points="446.67,338.36 452.67,344.36 446.67,350.36 440.67,344.36" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="E2E relative excess" data-condition="4" data-value="1.611689240"/>
+<polygon points="610.00,413.68 616.00,419.68 610.00,425.68 604.00,419.68" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="E2E relative excess" data-condition="8" data-value="1.073689440"/>
+<polygon points="773.33,446.24 779.33,452.24 773.33,458.24 767.33,452.24" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="E2E relative excess" data-condition="16" data-value="0.841107916"/>
+<polygon points="936.67,485.70 942.67,491.70 936.67,497.70 930.67,491.70" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="E2E relative excess" data-condition="32" data-value="0.559260036"/>
+<polygon points="1100.00,517.00 1106.00,523.00 1100.00,529.00 1094.00,523.00" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="E2E relative excess" data-condition="64" data-value="0.335749950"/>
+</g>
+</svg>

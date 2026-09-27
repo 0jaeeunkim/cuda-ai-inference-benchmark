@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img">
+<title>Median batch latency</title>
+<desc>Thirty repeated measurements per path and batch; fixed sequence length 64.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Liberation Sans, Arial, sans-serif">
+<text x="120.00" y="57.00" fill="#27313D" font-size="36" font-weight="600" text-anchor="start" >Median batch latency</text>
+<line x1="120.00" y1="570.00" x2="1100.00" y2="570.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="570.00" x2="120.00" y2="570.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="578.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >0</text>
+<line x1="120.00" y1="486.00" x2="1100.00" y2="486.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="486.00" x2="120.00" y2="486.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="494.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >100</text>
+<line x1="120.00" y1="402.00" x2="1100.00" y2="402.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="402.00" x2="120.00" y2="402.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="410.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >200</text>
+<line x1="120.00" y1="318.00" x2="1100.00" y2="318.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="318.00" x2="120.00" y2="318.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="326.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >300</text>
+<line x1="120.00" y1="234.00" x2="1100.00" y2="234.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="234.00" x2="120.00" y2="234.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="242.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >400</text>
+<line x1="120.00" y1="150.00" x2="1100.00" y2="150.00" stroke="#E4E8EC" stroke-width="0.9" />
+<line x1="114.00" y1="150.00" x2="120.00" y2="150.00" stroke="#27313D" stroke-width="1.1" />
+<text x="107.00" y="158.00" fill="#566273" font-size="23" font-weight="400" text-anchor="end" >500</text>
+<line x1="120.00" y1="570.00" x2="120.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="120.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >1</text>
+<line x1="283.33" y1="570.00" x2="283.33" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="283.33" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >2</text>
+<line x1="446.67" y1="570.00" x2="446.67" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="446.67" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >4</text>
+<line x1="610.00" y1="570.00" x2="610.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="610.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >8</text>
+<line x1="773.33" y1="570.00" x2="773.33" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="773.33" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >16</text>
+<line x1="936.67" y1="570.00" x2="936.67" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="936.67" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >32</text>
+<line x1="1100.00" y1="570.00" x2="1100.00" y2="576.00" stroke="#27313D" stroke-width="1.1" />
+<text x="1100.00" y="606.00" fill="#566273" font-size="23" font-weight="400" text-anchor="middle" >64</text>
+<line x1="120.00" y1="150.00" x2="120.00" y2="570.00" stroke="#27313D" stroke-width="1.4" />
+<line x1="120.00" y1="570.00" x2="1100.00" y2="570.00" stroke="#27313D" stroke-width="1.4" />
+<text x="610.00" y="660.00" fill="#27313D" font-size="29" font-weight="600" text-anchor="middle" >Batch size</text>
+<text x="0.00" y="0.00" fill="#27313D" font-size="29" font-weight="600" text-anchor="middle" transform="translate(37 360.00) rotate(-90)">Median batch latency (ms)</text>
+<line x1="120.00" y1="105.00" x2="157.00" y2="105.00" stroke="#303A46" stroke-width="2.8" />
+<circle cx="138.50" cy="105.00" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="legend" data-condition="0" data-value="0.000000000"/>
+<text x="170.00" y="114.00" fill="#27313D" font-size="25" font-weight="400" text-anchor="start" >CPU</text>
+<line x1="445.00" y1="105.00" x2="482.00" y2="105.00" stroke="#0072B2" stroke-width="2.8" stroke-dasharray="7 5"/>
+<rect x="458.50" y="100.00" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="legend" data-condition="0" data-value="0.000000000"/>
+<text x="495.00" y="114.00" fill="#27313D" font-size="25" font-weight="400" text-anchor="start" >GPU inference-only</text>
+<line x1="765.00" y1="105.00" x2="802.00" y2="105.00" stroke="#C65D12" stroke-width="2.8" />
+<polygon points="783.50,99.00 789.50,105.00 783.50,111.00 777.50,105.00" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="legend" data-condition="0" data-value="0.000000000"/>
+<text x="815.00" y="114.00" fill="#27313D" font-size="25" font-weight="400" text-anchor="start" >GPU E2E</text>
+<polyline points="120.00,560.80 283.33,555.56 446.67,544.59 610.00,522.96 773.33,476.22 936.67,377.54 1100.00,182.93" fill="none" stroke="#303A46" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="120.00" cy="560.80" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="1" data-value="10.950095500"/>
+<circle cx="283.33" cy="555.56" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="2" data-value="17.190633000"/>
+<circle cx="446.67" cy="544.59" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="4" data-value="30.248730500"/>
+<circle cx="610.00" cy="522.96" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="8" data-value="55.999811000"/>
+<circle cx="773.33" cy="476.22" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="16" data-value="111.643410500"/>
+<circle cx="936.67" cy="377.54" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="32" data-value="229.113167500"/>
+<circle cx="1100.00" cy="182.93" r="5.0" fill="#303A46" stroke="white" stroke-width="1.0" data-series="CPU" data-condition="64" data-value="460.801691500"/>
+<polyline points="120.00,568.95 283.33,568.68 446.67,568.30 610.00,567.69 773.33,566.34 936.67,563.58 1100.00,557.52" fill="none" stroke="#0072B2" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<rect x="115.00" y="563.95" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="1" data-value="1.254527986"/>
+<rect x="278.33" y="563.68" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="2" data-value="1.567936003"/>
+<rect x="441.67" y="563.30" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="4" data-value="2.024527908"/>
+<rect x="605.00" y="562.69" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="8" data-value="2.746975899"/>
+<rect x="768.33" y="561.34" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="16" data-value="4.362319946"/>
+<rect x="931.67" y="558.58" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="32" data-value="7.639775992"/>
+<rect x="1095.00" y="552.52" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-series="GPU inference-only" data-condition="64" data-value="14.861695767"/>
+<polyline points="120.00,568.92 283.33,568.66 446.67,568.27 610.00,567.67 773.33,566.30 936.67,563.55 1100.00,557.47" fill="none" stroke="#C65D12" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+<polygon points="120.00,562.92 126.00,568.92 120.00,574.92 114.00,568.92" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="1" data-value="1.286834000"/>
+<polygon points="283.33,562.66 289.33,568.66 283.33,574.66 277.33,568.66" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="2" data-value="1.600747000"/>
+<polygon points="446.67,562.27 452.67,568.27 446.67,574.27 440.67,568.27" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="4" data-value="2.057691500"/>
+<polygon points="610.00,561.67 616.00,567.67 610.00,573.67 604.00,567.67" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="8" data-value="2.776790000"/>
+<polygon points="773.33,560.30 779.33,566.30 773.33,572.30 767.33,566.30" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="16" data-value="4.399323000"/>
+<polygon points="936.67,557.55 942.67,563.55 936.67,569.55 930.67,563.55" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="32" data-value="7.682742500"/>
+<polygon points="1100.00,551.47 1106.00,557.47 1100.00,563.47 1094.00,557.47" fill="#C65D12" stroke="white" stroke-width="1.0" data-series="GPU E2E" data-condition="64" data-value="14.911762000"/>
+<rect x="210" y="205" width="460" height="215" fill="white" stroke="#8B96A3" stroke-width="1.4"/>
+<text x="232.00" y="239.00" fill="#27313D" font-size="25" font-weight="600" text-anchor="start" >GPU detail · batch size 1</text>
+<line x1="300.00" y1="270.00" x2="300.00" y2="390.00" stroke="#27313D" stroke-width="1.1" />
+<line x1="300.00" y1="390.00" x2="622.00" y2="390.00" stroke="#E4E8EC" stroke-width="0.8" />
+<text x="287.00" y="396.00" fill="#566273" font-size="19" font-weight="400" text-anchor="end" >1.24</text>
+<line x1="300.00" y1="350.00" x2="622.00" y2="350.00" stroke="#E4E8EC" stroke-width="0.8" />
+<text x="287.00" y="356.00" fill="#566273" font-size="19" font-weight="400" text-anchor="end" >1.26</text>
+<line x1="300.00" y1="310.00" x2="622.00" y2="310.00" stroke="#E4E8EC" stroke-width="0.8" />
+<text x="287.00" y="316.00" fill="#566273" font-size="19" font-weight="400" text-anchor="end" >1.28</text>
+<line x1="300.00" y1="270.00" x2="622.00" y2="270.00" stroke="#E4E8EC" stroke-width="0.8" />
+<text x="287.00" y="276.00" fill="#566273" font-size="19" font-weight="400" text-anchor="end" >1.30</text>
+<line x1="350.00" y1="360.94" x2="445.00" y2="360.94" stroke="#0072B2" stroke-width="3.0" stroke-dasharray="7 5"/>
+<rect x="440.00" y="355.94" width="10" height="10" fill="white" stroke="#0072B2" stroke-width="2.3" data-inset-series="GPU inference-only" data-value="1.254527986"/>
+<text x="467.00" y="367.94" fill="#27313D" font-size="22" font-weight="400" text-anchor="start" >1.255 ms</text>
+<line x1="350.00" y1="296.33" x2="445.00" y2="296.33" stroke="#C65D12" stroke-width="3.0" />
+<polygon points="445.00,290.33 451.00,296.33 445.00,302.33 439.00,296.33" fill="#C65D12" stroke="white" stroke-width="1.0" data-inset-series="GPU E2E" data-value="1.286834000"/>
+<text x="467.00" y="303.33" fill="#27313D" font-size="22" font-weight="400" text-anchor="start" >1.287 ms</text>
+</g>
+</svg>
