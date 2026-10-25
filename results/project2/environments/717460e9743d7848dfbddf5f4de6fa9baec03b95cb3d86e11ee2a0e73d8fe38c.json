@@ -1,0 +1,104 @@
+{
+  "blockers": [],
+  "cache": {
+    "HF_DATASETS_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/datasets",
+    "HF_DATASETS_OFFLINE": "1",
+    "HF_HOME": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface",
+    "HF_HUB_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/hub",
+    "HF_HUB_OFFLINE": "1"
+  },
+  "conda_executable": "/home/jekim/miniforge3/condabin/conda",
+  "cpu_model": "AMD Ryzen 7 9700X 8-Core Processor",
+  "cuda_fp32_smoke": "passed",
+  "cuda_runtime": "13.0",
+  "gpu_driver_query": "NVIDIA GeForce RTX 5070 Ti, 595.99.02, 12.0",
+  "logical_cpus": 16,
+  "machine": "x86_64",
+  "model_forward_smoke": {
+    "logits_sha256": "949c82fef3653b4b24f6ff841a45c2762b593adc27aad8a9860cee2b8280853b",
+    "passed": true
+  },
+  "packages": {
+    "datasets": "5.0.1",
+    "huggingface-hub": "1.32.0",
+    "tokenizers": "0.23.2",
+    "torch": "2.12.0+cu130",
+    "transformers": "5.16.1"
+  },
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "project1": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+  "python_executable": "/home/jekim/miniforge3/envs/cuda-project2/bin/python",
+  "recorded_at_utc": "2026-10-25T11:24:26.208925+00:00",
+  "runtime": {
+    "cache": {
+      "HF_DATASETS_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/datasets",
+      "HF_DATASETS_OFFLINE": "1",
+      "HF_HOME": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface",
+      "HF_HUB_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/hub",
+      "HF_HUB_OFFLINE": "1"
+    },
+    "compute_capability": [
+      12,
+      0
+    ],
+    "cpu_threads": 8,
+    "cuda_arch_list": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ],
+    "cuda_matmul_allow_tf32": false,
+    "cuda_runtime": "13.0",
+    "cuda_visible_devices": null,
+    "cudnn_allow_tf32": false,
+    "cudnn_version": 92000,
+    "driver": "595.99.02",
+    "float32_matmul_precision": "highest",
+    "gpu_memory_bytes": 16611278848,
+    "gpu_name": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_uuid": "4b7a0d92-339c-14ef-271c-2cf8fb82caa7",
+    "interop_threads": 16,
+    "packages": {
+      "datasets": "5.0.1",
+      "huggingface-hub": "1.32.0",
+      "tokenizers": "0.23.2",
+      "torch": "2.12.0+cu130",
+      "transformers": "5.16.1"
+    },
+    "python": "3.10.20",
+    "python_executable": "/home/jekim/miniforge3/envs/cuda-project2/bin/python"
+  },
+  "snapshot_id": "717460e9743d7848dfbddf5f4de6fa9baec03b95cb3d86e11ee2a0e73d8fe38c",
+  "status": "ready",
+  "workload": {
+    "attention_implementation": "sdpa",
+    "dataset_content_sha256": "c0ab502188190114e051e9cb56be0abb0a406f5481dfc7cc79fc87ce1b4da898",
+    "dataset_fingerprint": "0e2b00033b48693f",
+    "dataset_id": "nyu-mll/glue",
+    "dataset_revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+    "legacy_datasets_version": "5.0.1",
+    "model_files_sha256": {
+      "config.json": "582122c8f414793d131e10022ce9ba04e3811a9da6389137ee2f18665b4f4d15",
+      "model.safetensors": "7c3919835e442510166d267fe7cbe847e0c51cd26d9ba07b89a57b952b49b8aa",
+      "tokenizer_config.json": "5ab9097b4149371c5fd52b2d6e26cb6f9c07c0d19fcfdda895b1adad6b57c3e0",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+    "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+    "model_snapshot": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/hub/models--distilbert-base-uncased-finetuned-sst-2-english/snapshots/714eb0fa89d2f80546fda750413ed43d93601a13",
+    "prefix_137_inputs_sha256": null,
+    "tokenizer_backend": "tokenizers",
+    "tokenizer_class": "BertTokenizer",
+    "tokenizer_is_fast": true,
+    "tokenizer_reported_revision": null,
+    "tokenizer_requested_revision": "714eb0fa89d2f80546fda750413ed43d93601a13"
+  }
+}

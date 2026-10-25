@@ -1,0 +1,4 @@
+Using the latest cached version of the dataset since nyu-mll/glue couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'sst2' at /home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/datasets/nyu-mll___glue/sst2/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c (last modified on Sun Oct 25 20:20:16 2026).
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights: 100%|██████████| 104/104 [00:00<00:00, 25247.88it/s]
+{"status": "completed", "session": "results/project2/smoke/2026-10-25T112508.818449_0000_40f9eefb", "mode": "smoke", "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78"}

@@ -1,0 +1,298 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "axes": [
+    {
+      "format": ".2f",
+      "grid": true,
+      "orient": "bottom",
+      "scale": "x",
+      "title": "Median(A) / median(variant)"
+    },
+    {
+      "domain": false,
+      "labelPadding": 10,
+      "orient": "left",
+      "scale": "y",
+      "ticks": false
+    }
+  ],
+  "background": "white",
+  "data": [
+    {
+      "name": "results",
+      "values": [
+        {
+          "condition": "B=1  A",
+          "high": 1.0021611628255516,
+          "label": "926.597 ms  |  1.0000x",
+          "low": 0.9980148409345241,
+          "speedup": 1.0,
+          "variant": "A"
+        },
+        {
+          "condition": "B=1  B",
+          "high": 1.0030621888233096,
+          "label": "925.341 ms  |  1.0014x",
+          "low": 0.9992348654386611,
+          "speedup": 1.0013569089511125,
+          "variant": "B"
+        },
+        {
+          "condition": "B=1  C",
+          "high": 1.1035705106348497,
+          "label": "840.821 ms  |  1.1020x",
+          "low": 1.0996431775329938,
+          "speedup": 1.102014355895942,
+          "variant": "C"
+        },
+        {
+          "condition": "B=1  D",
+          "high": 1.100284319779025,
+          "label": "842.931 ms  |  1.0993x",
+          "low": 1.0973356769697742,
+          "speedup": 1.0992564251683488,
+          "variant": "D"
+        },
+        {
+          "condition": "B=8  A",
+          "high": 1.000532558128502,
+          "label": "334.065 ms  |  1.0000x",
+          "low": 0.9992221223106549,
+          "speedup": 1.0,
+          "variant": "A"
+        },
+        {
+          "condition": "B=8  B",
+          "high": 1.001177657482544,
+          "label": "333.977 ms  |  1.0003x",
+          "low": 0.9998419069637309,
+          "speedup": 1.0002633711533682,
+          "variant": "B"
+        },
+        {
+          "condition": "B=8  C",
+          "high": 1.0325641934967493,
+          "label": "323.624 ms  |  1.0323x",
+          "low": 1.031930443272922,
+          "speedup": 1.0322632463038257,
+          "variant": "C"
+        },
+        {
+          "condition": "B=8  D",
+          "high": 1.0353197790963455,
+          "label": "323.014 ms  |  1.0342x",
+          "low": 1.0334614628119332,
+          "speedup": 1.0342124042883656,
+          "variant": "D"
+        },
+        {
+          "condition": "B=64  A",
+          "high": 1.000717340620802,
+          "label": "234.661 ms  |  1.0000x",
+          "low": 0.99884860618756,
+          "speedup": 1.0,
+          "variant": "A"
+        },
+        {
+          "condition": "B=64  B",
+          "high": 1.0011946870074233,
+          "label": "234.665 ms  |  1.0000x",
+          "low": 0.9977354015715437,
+          "speedup": 0.9999821021658996,
+          "variant": "B"
+        },
+        {
+          "condition": "B=64  C",
+          "high": 1.004645942994139,
+          "label": "233.815 ms  |  1.0036x",
+          "low": 1.0019609166928503,
+          "speedup": 1.0036202937782044,
+          "variant": "C"
+        },
+        {
+          "condition": "B=64  D",
+          "high": 1.0056137782749262,
+          "label": "233.550 ms  |  1.0048x",
+          "low": 1.0031635674877148,
+          "speedup": 1.004758332901466,
+          "variant": "D"
+        }
+      ]
+    }
+  ],
+  "height": 460,
+  "marks": [
+    {
+      "encode": {
+        "enter": {
+          "stroke": {
+            "value": "#94a3b8"
+          },
+          "strokeDash": {
+            "value": [
+              4,
+              4
+            ]
+          },
+          "x": {
+            "scale": "x",
+            "value": 1
+          },
+          "y": {
+            "value": 0
+          },
+          "y2": {
+            "signal": "height"
+          }
+        }
+      },
+      "type": "rule"
+    },
+    {
+      "encode": {
+        "enter": {
+          "stroke": {
+            "field": "variant",
+            "scale": "color"
+          },
+          "strokeWidth": {
+            "value": 3
+          },
+          "x": {
+            "field": "low",
+            "scale": "x"
+          },
+          "x2": {
+            "field": "high",
+            "scale": "x"
+          },
+          "y": {
+            "band": 0.5,
+            "field": "condition",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "results"
+      },
+      "type": "rule"
+    },
+    {
+      "encode": {
+        "enter": {
+          "fill": {
+            "field": "variant",
+            "scale": "color"
+          },
+          "size": {
+            "value": 80
+          },
+          "x": {
+            "field": "speedup",
+            "scale": "x"
+          },
+          "y": {
+            "band": 0.5,
+            "field": "condition",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "results"
+      },
+      "type": "symbol"
+    },
+    {
+      "encode": {
+        "enter": {
+          "baseline": {
+            "value": "middle"
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "text": {
+            "field": "label"
+          },
+          "x": {
+            "signal": "width + 12"
+          },
+          "y": {
+            "band": 0.5,
+            "field": "condition",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "results"
+      },
+      "type": "text"
+    }
+  ],
+  "padding": {
+    "bottom": 75,
+    "left": 95,
+    "right": 220,
+    "top": 75
+  },
+  "scales": [
+    {
+      "domain": [
+        0.99,
+        1.115
+      ],
+      "name": "x",
+      "range": "width",
+      "type": "linear",
+      "zero": false
+    },
+    {
+      "domain": [
+        "B=1  A",
+        "B=1  B",
+        "B=1  C",
+        "B=1  D",
+        "B=8  A",
+        "B=8  B",
+        "B=8  C",
+        "B=8  D",
+        "B=64  A",
+        "B=64  B",
+        "B=64  C",
+        "B=64  D"
+      ],
+      "name": "y",
+      "padding": 0.4,
+      "range": "height",
+      "type": "band"
+    },
+    {
+      "domain": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "name": "color",
+      "range": [
+        "#64748b",
+        "#d18b20",
+        "#15803d",
+        "#2563eb"
+      ],
+      "type": "ordinal"
+    }
+  ],
+  "title": {
+    "anchor": "start",
+    "subtitle": [
+      "872 rows per run; 32 runs per condition; RTX 5070 Ti; FP32; S=64",
+      "Dots: ratios of medians. Whiskers: transformed run-time IQR, not confidence intervals."
+    ],
+    "text": "Prepared-buffer warm E2E: speedup over A"
+  },
+  "width": 700
+}

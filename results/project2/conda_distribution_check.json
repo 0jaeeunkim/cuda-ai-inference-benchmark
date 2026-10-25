@@ -1,0 +1,24 @@
+{
+  "miniforge": {
+    "tag": "26.9.4-0",
+    "assets": [
+      {
+        "name": "Miniforge3-Linux-x86_64.sh",
+        "browser_download_url": "https://github.com/conda-forge/miniforge/releases/download/26.9.4-0/Miniforge3-Linux-x86_64.sh",
+        "size": 126295921
+      }
+    ]
+  },
+  "python_conda_forge": {
+    "version": "3.10.20",
+    "linux_64_files": [
+      "linux-64/python-3.10.20-h267e890_1_cpython.conda",
+      "linux-64/python-3.10.20-h3c07f61_0_cpython.conda"
+    ]
+  },
+  "installer_checksum": {
+    "url": "https://github.com/conda-forge/miniforge/releases/download/26.9.4-0/Miniforge3-26.9.4-0-Linux-x86_64.sh.sha256",
+    "value": "621428f40496a90702753b09237794518a081d9979d9f845a525de761b6056f7  ./Miniforge3-26.9.4-0-Linux-x86_64.sh"
+  },
+  "verified_at_utc": "2026-10-25T10:43:44.362316+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "B64_tail": 40,
+  "audited_at_utc": "2026-10-25T11:28:38.054282+00:00",
+  "conditions": 12,
+  "coverage_checks": 12,
+  "full_benchmark_status": "not run",
+  "gates": {
+    "correctness": {
+      "gate_sha256": "a1e4784d0cfe3e42bb5bc74b446885ba12d594f2f96faec11da0e339c7b74a94",
+      "session_id": "2026-10-25T112729.784641_0000_35de3e8e"
+    },
+    "smoke": {
+      "gate_sha256": "de2dc6dda5f097305a18b83300cbd4a58c41111ebc51d93a556348f4a0b15261",
+      "session_id": "2026-10-25T112508.818449_0000_40f9eefb"
+    }
+  },
+  "max_abs_error": 0.0,
+  "passed": true,
+  "project1": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+  "raw_rows": 12,
+  "reference_artifacts_checked": 3,
+  "sample_count_per_condition": 872,
+  "session_id": "2026-10-25T112729.784641_0000_35de3e8e",
+  "trace_status": "pending"
+}

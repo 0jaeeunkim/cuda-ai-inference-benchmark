@@ -1,0 +1,13 @@
+{
+  "balanced_positions_per_variant": 8,
+  "checked_at_utc": "2026-10-25T10:50:07.882134+00:00",
+  "full_rows": 384,
+  "passed": true,
+  "project1": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+  "smoke_rows": 24
+}

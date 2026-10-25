@@ -51,3 +51,9 @@ The cold commands require the pinned model already cached locally and run offlin
 ## Interpretation limits
 
 Results come from one server, one model/task, FP32, and sequence length 64. Warm, whole-application, and process-cold timing boundaries differ and must not be pooled. The process-cold bracket is not an exact crossover point. No profiler evidence identifies GPU utilization, saturation, or the isolated PCIe transfer cost.
+
+## CUDA Project 2
+
+Asynchronous DistilBERT inference continues in the [Project 2 specification](docs/project2/PROJECT_SPEC.md), [progress log](docs/project2/PLAN.md), and [terminal handoff](docs/project2/RUNBOOK.md). Project 1 source and evidence remain preserved; new runs write to `results/project2/`.
+
+The [audited Project 2 results](results/project2/sessions/2026-10-25T113152.111380_0000_43aecc1c/analysis.md) include the 384-run comparison, short CUDA trace interpretation, setup costs and standalone figures.

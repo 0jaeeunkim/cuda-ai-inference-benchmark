@@ -42,3 +42,7 @@ id_rsa*
 id_ed25519*
 *.p12
 *.pfx
+
+# Local lecture material and large diagnostic traces
+/references/project2/
+/results/project2/**/traces/

@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "correctness.json": "4d84ee5f4ef091755755ab3269dbec20ec8d0aa00ba9d64080309812f0b307de",
+    "metadata.json": "73c9a74e8e121382b0d88dec597cf792239f49f8c823975993f2f3c3a97fc5f6",
+    "raw.csv": "991f2fe3238685a9b841e69c0784b2eac11d808631ba01164eeb0d3d20836dc8",
+    "reference_b1_n5.pt": "a8bc7f1248e35c21934973e527a459fd4f0d04c9e6b0df505746404d99cfb9ab",
+    "reference_b64_n137.pt": "25f72d10b0d768fb22a3fb6dd5a6b140e1fb08d20d8ee38a0ceace874da0d86c",
+    "reference_b8_n19.pt": "c2e14f3fa7f145a0d9b4e4159524c735ab847e245ae4e9e683fc5fca54eb3307"
+  },
+  "identity": {
+    "environment_sha256": "910146957dbf7b1b5000d900063643b819208df900cc609f13e76b417a0878fd",
+    "project1_manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+    "runtime_sha256": "055c434e617192e677445c0d72a12fa969afc4d831a35a3549101b0ddb52a9b5",
+    "workload_sha256": "9fdaa3ba54e92a39e84fd8cbe059c681a34f8e66dbb5002b36cc5fc66d638381"
+  },
+  "passed": true
+}

@@ -1,0 +1,48 @@
+{
+  "artifact_sha256": {
+    "analysis.md": "dc07564eeea825ccb2efed40b8b738604da8bca50520efe062a0848b65c27cd1",
+    "comparisons.csv": "e8a0f6eb452e83bcfe3d26470ae0a8db4eea79d814cf679362dfd7c2f0795d5c",
+    "plots/overlap_detail.svg": "09328838c2181f5d3029f21c7e799ec9f8f0a2ff60740cc9aa01ac2769791ce4",
+    "plots/overlap_detail.vega.json": "f3cc6a1baec6f0b9054e11c93bfaefb809dad1625db885199e5ce55bae7fe76d",
+    "plots/speedup.svg": "c2c2ee730c2183c1e390fadc1cef158436787d63f3329e050c29152da64172ce",
+    "plots/speedup.vega.json": "90a8d056d2e819998b1e5f8bdedbe27b4e79dc5ca134b34220fcfcad897bf5d8",
+    "plots/timeline.svg": "042017940216184d0ac8c67a8b5032a5173125677b6b5fbe5f02a61ea55fc00f",
+    "plots/timeline.vega.json": "6b95b7c3c80564eb1aabc1ce2e5f16971418cf8042ddab3c96c7001d97546cb3",
+    "report.html": "d6db5bd68d62f215efcdfd989192718361da387d5ef3efeedb568fecc92d6664",
+    "setup_costs.csv": "372065961a4bc617f96b7d8942753c929d4aeb4f22d9d5123a855b9703d127cd"
+  },
+  "benchmark_session": "2026-10-25T113152.111380_0000_43aecc1c",
+  "command": [
+    "/usr/bin/python3",
+    "scripts/project2_report.py",
+    "--session",
+    "results/project2/sessions/2026-10-25T113152.111380_0000_43aecc1c",
+    "--trace-session",
+    "results/project2/diagnostics/aaaea78b1d90460c91df9e18816974a5_trace",
+    "--node",
+    "/home/jekim/.vscode-server/cli/servers/Stable-2a59476c9bfcb90b3ddc372c36762471b7dfad1c/server/node",
+    "--vega",
+    ".cache/project2-report/vega.min.js"
+  ],
+  "cwd": "/home/jekim/cuda/cuda-ai-inference-benchmark",
+  "generated_at_utc": "2026-10-25T11:47:13.734048+00:00",
+  "postprocessing_sources": {
+    "scripts/project2_render.cjs": "2ea6c2a925b35db25c84a9e520b5c7ef34303f12da908eb18aadff71b4fd1d5e",
+    "scripts/project2_report.py": "12042b07e6a1ba197b7fdc3df0b1aab6e91491f3cc1ecdca8b3034328080377f",
+    "src/project2_results_audit.py": "3f1a0ae78c251a8316e887a28f23baa25c0fb672d09013e5ab130190236a3907",
+    "src/project2_trace_audit.py": "0c815e3f1b65efcf12aef23ab3a2b10616b5b49620e0caf18727c4cd1d36eb72"
+  },
+  "project1": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+  "raw_sha256": "5374f6192f4bed2bbfe2d462a07925ec1af2ac76cb074dc89168836bf43a5a9b",
+  "trace_audit_sha256": "d9b25fa0ec85fb20b44620a56b3b8a266dc4cde291e083d4c096161f51a21d7b",
+  "vega": {
+    "bundle_sha256": "e432c751a6363f4a61da62920cc7d7ebd13cf09d82949f8f486248f8071dc3ce",
+    "url": "https://cdn.jsdelivr.net/npm/vega@5.30.0/build/vega.min.js",
+    "version": "5.30.0"
+  }
+}

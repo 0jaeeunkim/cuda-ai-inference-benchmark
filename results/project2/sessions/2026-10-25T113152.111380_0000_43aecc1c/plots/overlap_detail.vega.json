@@ -1,0 +1,3231 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "axes": [
+    {
+      "format": ".3f",
+      "grid": true,
+      "orient": "bottom",
+      "scale": "x",
+      "title": "GPU time from first activity (ms)"
+    },
+    {
+      "domain": false,
+      "labelPadding": 10,
+      "orient": "left",
+      "scale": "y",
+      "ticks": false
+    }
+  ],
+  "background": "white",
+  "data": [
+    {
+      "name": "events",
+      "values": [
+        {
+          "batch": 0,
+          "end": 0.000768,
+          "kind": "H2D",
+          "lane": "D stream 25",
+          "start": 0.0
+        },
+        {
+          "batch": 0,
+          "end": 0.008128140625,
+          "kind": "H2D",
+          "lane": "D stream 25",
+          "start": 0.007744140625
+        },
+        {
+          "batch": 0,
+          "end": 0.109536216796875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.107647216796875
+        },
+        {
+          "batch": 0,
+          "end": 0.136223099609375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.134527099609375
+        },
+        {
+          "batch": 0,
+          "end": 0.146975142578125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.144671142578125
+        },
+        {
+          "batch": 0,
+          "end": 0.164639140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.161119140625
+        },
+        {
+          "batch": 0,
+          "end": 0.18931106054687502,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.187487060546875
+        },
+        {
+          "batch": 0,
+          "end": 0.21084710546875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.20918310546875
+        },
+        {
+          "batch": 0,
+          "end": 0.219103099609375,
+          "kind": "internal_D2H",
+          "lane": "D stream 21",
+          "start": 0.218527099609375
+        },
+        {
+          "batch": 0,
+          "end": 0.23638299609375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.23564599609375
+        },
+        {
+          "batch": 0,
+          "end": 0.243646138671875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.242942138671875
+        },
+        {
+          "batch": 0,
+          "end": 0.24924721289062501,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.248543212890625
+        },
+        {
+          "batch": 0,
+          "end": 0.25711816796875003,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.25622216796875
+        },
+        {
+          "batch": 0,
+          "end": 0.2637100625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.2630390625
+        },
+        {
+          "batch": 0,
+          "end": 0.277886216796875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.277022216796875
+        },
+        {
+          "batch": 0,
+          "end": 0.293150080078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.292382080078125
+        },
+        {
+          "batch": 0,
+          "end": 0.302494162109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.301566162109375
+        },
+        {
+          "batch": 0,
+          "end": 0.31139014062500003,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.310494140625
+        },
+        {
+          "batch": 0,
+          "end": 0.33225418945312496,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.331294189453125
+        },
+        {
+          "batch": 0,
+          "end": 0.338558109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.337662109375
+        },
+        {
+          "batch": 0,
+          "end": 0.34975802734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.34447802734375
+        },
+        {
+          "batch": 0,
+          "end": 0.35395021875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.35257421875
+        },
+        {
+          "batch": 0,
+          "end": 0.39455800195312496,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 0.394302001953125
+        },
+        {
+          "batch": 0,
+          "end": 0.44130919921875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.39705419921875
+        },
+        {
+          "batch": 0,
+          "end": 0.44351805078125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 0.44310205078125
+        },
+        {
+          "batch": 0,
+          "end": 0.488252982421875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.444156982421875
+        },
+        {
+          "batch": 0,
+          "end": 0.490173009765625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 0.489885009765625
+        },
+        {
+          "batch": 0,
+          "end": 0.53551700390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.49122900390625
+        },
+        {
+          "batch": 0,
+          "end": 0.536509193359375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.535773193359375
+        },
+        {
+          "batch": 0,
+          "end": 0.53750113671875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.53676513671875
+        },
+        {
+          "batch": 0,
+          "end": 0.5390050800781251,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.537757080078125
+        },
+        {
+          "batch": 0,
+          "end": 0.552125212890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.539293212890625
+        },
+        {
+          "batch": 0,
+          "end": 0.555005216796875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 0.554397216796875
+        },
+        {
+          "batch": 0,
+          "end": 0.60233304296875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.55826904296875
+        },
+        {
+          "batch": 0,
+          "end": 0.6045091171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.6026201171875
+        },
+        {
+          "batch": 0,
+          "end": 0.60847613671875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.60476513671875
+        },
+        {
+          "batch": 0,
+          "end": 0.7199641777343749,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.608732177734375
+        },
+        {
+          "batch": 0,
+          "end": 0.725244197265625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.720252197265625
+        },
+        {
+          "batch": 0,
+          "end": 0.727612046875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 0.726748046875
+        },
+        {
+          "batch": 0,
+          "end": 0.85973916796875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.72834716796875
+        },
+        {
+          "batch": 0,
+          "end": 0.8619150996093751,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.860027099609375
+        },
+        {
+          "batch": 0,
+          "end": 0.8657551425781249,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.862171142578125
+        },
+        {
+          "batch": 0,
+          "end": 0.868027013671875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 0.867739013671875
+        },
+        {
+          "batch": 0,
+          "end": 0.913915056640625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.869883056640625
+        },
+        {
+          "batch": 0,
+          "end": 0.915131017578125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 0.914843017578125
+        },
+        {
+          "batch": 0,
+          "end": 0.960153994140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.916218994140625
+        },
+        {
+          "batch": 0,
+          "end": 0.9625860449218749,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 0.961946044921875
+        },
+        {
+          "batch": 0,
+          "end": 1.00793001953125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 0.96377001953125
+        },
+        {
+          "batch": 0,
+          "end": 1.00895403515625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.00818603515625
+        },
+        {
+          "batch": 0,
+          "end": 1.009946205078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.009210205078125
+        },
+        {
+          "batch": 0,
+          "end": 1.011802130859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.010234130859375
+        },
+        {
+          "batch": 0,
+          "end": 1.0249541054687499,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.01205810546875
+        },
+        {
+          "batch": 0,
+          "end": 1.02636208203125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.02543408203125
+        },
+        {
+          "batch": 0,
+          "end": 1.071066126953125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.027130126953125
+        },
+        {
+          "batch": 0,
+          "end": 1.073209021484375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.071322021484375
+        },
+        {
+          "batch": 0,
+          "end": 1.077050087890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.073465087890625
+        },
+        {
+          "batch": 0,
+          "end": 1.1907451347656248,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.077338134765625
+        },
+        {
+          "batch": 0,
+          "end": 1.1962492031249998,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.191033203125
+        },
+        {
+          "batch": 0,
+          "end": 1.1977530703125001,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.1974970703125
+        },
+        {
+          "batch": 0,
+          "end": 1.332536185546875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.199065185546875
+        },
+        {
+          "batch": 0,
+          "end": 1.33474421875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.33282421875
+        },
+        {
+          "batch": 0,
+          "end": 1.338584,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.335
+        },
+        {
+          "batch": 0,
+          "end": 1.34130421875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.34082421875
+        },
+        {
+          "batch": 0,
+          "end": 1.38597607421875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.34197607421875
+        },
+        {
+          "batch": 0,
+          "end": 1.388407978515625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.387927978515625
+        },
+        {
+          "batch": 0,
+          "end": 1.432567095703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.389048095703125
+        },
+        {
+          "batch": 0,
+          "end": 1.433560154296875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.432983154296875
+        },
+        {
+          "batch": 0,
+          "end": 1.47791121875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.43419921875
+        },
+        {
+          "batch": 0,
+          "end": 1.47893521875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.47819921875
+        },
+        {
+          "batch": 0,
+          "end": 1.479959162109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.479191162109375
+        },
+        {
+          "batch": 0,
+          "end": 1.4818150878906249,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.480215087890625
+        },
+        {
+          "batch": 0,
+          "end": 1.4949030449218752,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.482071044921875
+        },
+        {
+          "batch": 0,
+          "end": 1.4972390332031251,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.496759033203125
+        },
+        {
+          "batch": 0,
+          "end": 1.5420391328124998,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.4979111328125
+        },
+        {
+          "batch": 0,
+          "end": 1.5442151660156251,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.542295166015625
+        },
+        {
+          "batch": 0,
+          "end": 1.54783119140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.54447119140625
+        },
+        {
+          "batch": 0,
+          "end": 1.660118158203125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.548087158203125
+        },
+        {
+          "batch": 0,
+          "end": 1.665462005859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.660406005859375
+        },
+        {
+          "batch": 0,
+          "end": 1.6669021015625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.6664541015625
+        },
+        {
+          "batch": 0,
+          "end": 1.798869201171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.667606201171875
+        },
+        {
+          "batch": 0,
+          "end": 1.8010449824218748,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.799156982421875
+        },
+        {
+          "batch": 0,
+          "end": 1.804821025390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.801301025390625
+        },
+        {
+          "batch": 0,
+          "end": 1.806229041015625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.805717041015625
+        },
+        {
+          "batch": 0,
+          "end": 1.850901140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.806869140625
+        },
+        {
+          "batch": 0,
+          "end": 1.853301044921875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.852821044921875
+        },
+        {
+          "batch": 0,
+          "end": 1.897813162109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.853941162109375
+        },
+        {
+          "batch": 0,
+          "end": 1.9003730488281252,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.899925048828125
+        },
+        {
+          "batch": 0,
+          "end": 1.945045166015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.901045166015625
+        },
+        {
+          "batch": 0,
+          "end": 1.94606803125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.94533203125
+        },
+        {
+          "batch": 0,
+          "end": 1.9470602187500001,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.94632421875
+        },
+        {
+          "batch": 0,
+          "end": 1.9485641445312498,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.94734814453125
+        },
+        {
+          "batch": 0,
+          "end": 1.961716068359375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.948820068359375
+        },
+        {
+          "batch": 0,
+          "end": 1.9641801953125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 1.9637001953125
+        },
+        {
+          "batch": 0,
+          "end": 2.008915998046875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 1.964947998046875
+        },
+        {
+          "batch": 0,
+          "end": 2.011092119140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.009172119140625
+        },
+        {
+          "batch": 0,
+          "end": 2.01486814453125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.01134814453125
+        },
+        {
+          "batch": 0,
+          "end": 2.126707005859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.015156005859375
+        },
+        {
+          "batch": 0,
+          "end": 2.1320191171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.1269951171875
+        },
+        {
+          "batch": 0,
+          "end": 2.1338430195312497,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.13339501953125
+        },
+        {
+          "batch": 0,
+          "end": 2.266290119140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.134547119140625
+        },
+        {
+          "batch": 0,
+          "end": 2.2684981250000003,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.266578125
+        },
+        {
+          "batch": 0,
+          "end": 2.272210150390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.268754150390625
+        },
+        {
+          "batch": 0,
+          "end": 2.273138203125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.272658203125
+        },
+        {
+          "batch": 0,
+          "end": 2.317682076171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.273778076171875
+        },
+        {
+          "batch": 0,
+          "end": 2.32024220703125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.31976220703125
+        },
+        {
+          "batch": 0,
+          "end": 2.364658080078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.320882080078125
+        },
+        {
+          "batch": 0,
+          "end": 2.3673462109375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.3668662109375
+        },
+        {
+          "batch": 0,
+          "end": 2.411730083984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.367986083984375
+        },
+        {
+          "batch": 0,
+          "end": 2.412722083984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.411986083984375
+        },
+        {
+          "batch": 0,
+          "end": 2.41371402734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.41297802734375
+        },
+        {
+          "batch": 0,
+          "end": 2.4155689765625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.4140009765625
+        },
+        {
+          "batch": 0,
+          "end": 2.4286581953125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.4158251953125
+        },
+        {
+          "batch": 0,
+          "end": 2.431121095703125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.430673095703125
+        },
+        {
+          "batch": 0,
+          "end": 2.475985212890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.431793212890625
+        },
+        {
+          "batch": 0,
+          "end": 2.478129193359375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.476273193359375
+        },
+        {
+          "batch": 0,
+          "end": 2.481873009765625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.478385009765625
+        },
+        {
+          "batch": 0,
+          "end": 2.5937121328125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.4821611328125
+        },
+        {
+          "batch": 0,
+          "end": 2.598991994140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.593968994140625
+        },
+        {
+          "batch": 0,
+          "end": 2.6010720234374998,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.6006240234375
+        },
+        {
+          "batch": 0,
+          "end": 2.734864140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.601744140625
+        },
+        {
+          "batch": 0,
+          "end": 2.737040099609375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.735152099609375
+        },
+        {
+          "batch": 0,
+          "end": 2.740752142578125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.737296142578125
+        },
+        {
+          "batch": 0,
+          "end": 2.7421920351562497,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.74193603515625
+        },
+        {
+          "batch": 0,
+          "end": 2.7869910136718747,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.742864013671875
+        },
+        {
+          "batch": 0,
+          "end": 2.7890069765625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.7887509765625
+        },
+        {
+          "batch": 0,
+          "end": 2.83371119921875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.78967919921875
+        },
+        {
+          "batch": 0,
+          "end": 2.83614298046875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.83585498046875
+        },
+        {
+          "batch": 0,
+          "end": 2.880975203125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.836783203125
+        },
+        {
+          "batch": 0,
+          "end": 2.8819672011718747,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.881231201171875
+        },
+        {
+          "batch": 0,
+          "end": 2.882991126953125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.882255126953125
+        },
+        {
+          "batch": 0,
+          "end": 2.8848150703125004,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.8832470703125
+        },
+        {
+          "batch": 0,
+          "end": 2.89796702734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.88510302734375
+        },
+        {
+          "batch": 0,
+          "end": 2.899598041015625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 2.899342041015625
+        },
+        {
+          "batch": 0,
+          "end": 2.9443661699218753,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.900399169921875
+        },
+        {
+          "batch": 0,
+          "end": 2.946542052734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.944654052734375
+        },
+        {
+          "batch": 0,
+          "end": 2.9502860957031247,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.946798095703125
+        },
+        {
+          "batch": 0,
+          "end": 3.06219021875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 2.95057421875
+        },
+        {
+          "batch": 0,
+          "end": 3.06750205078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.06247705078125
+        },
+        {
+          "batch": 0,
+          "end": 3.069613171875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.069326171875
+        },
+        {
+          "batch": 0,
+          "end": 3.2036611328125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.0702861328125
+        },
+        {
+          "batch": 0,
+          "end": 3.2058372187499997,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.20394921875
+        },
+        {
+          "batch": 0,
+          "end": 3.209517017578125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.206093017578125
+        },
+        {
+          "batch": 0,
+          "end": 3.217485193359375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.209773193359375
+        },
+        {
+          "batch": 0,
+          "end": 3.2185732109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.2177412109375
+        },
+        {
+          "batch": 0,
+          "end": 3.2250371015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.2188291015625
+        },
+        {
+          "batch": 0,
+          "end": 3.230957103515625,
+          "kind": "logits_D2H",
+          "lane": "D stream 21",
+          "start": 3.230381103515625
+        },
+        {
+          "batch": 1,
+          "end": 1.6699101406249999,
+          "kind": "H2D",
+          "lane": "D stream 25",
+          "start": 1.669494140625
+        },
+        {
+          "batch": 1,
+          "end": 1.67451805078125,
+          "kind": "H2D",
+          "lane": "D stream 25",
+          "start": 1.67410205078125
+        },
+        {
+          "batch": 1,
+          "end": 3.23652515625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.23428515625
+        },
+        {
+          "batch": 1,
+          "end": 3.23841298828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.23681298828125
+        },
+        {
+          "batch": 1,
+          "end": 3.2410051894531247,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.238669189453125
+        },
+        {
+          "batch": 1,
+          "end": 3.244748986328125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.241260986328125
+        },
+        {
+          "batch": 1,
+          "end": 3.2475331269531247,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.245005126953125
+        },
+        {
+          "batch": 1,
+          "end": 3.2495490625000003,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.2477890625
+        },
+        {
+          "batch": 1,
+          "end": 3.2552450546875003,
+          "kind": "internal_D2H",
+          "lane": "D stream 21",
+          "start": 3.2549560546875
+        },
+        {
+          "batch": 1,
+          "end": 3.2722359765625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.2715009765625
+        },
+        {
+          "batch": 1,
+          "end": 3.27876405859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.27806005859375
+        },
+        {
+          "batch": 1,
+          "end": 3.284876119140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.284172119140625
+        },
+        {
+          "batch": 1,
+          "end": 3.292780015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.291916015625
+        },
+        {
+          "batch": 1,
+          "end": 3.299244021484375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.298572021484375
+        },
+        {
+          "batch": 1,
+          "end": 3.303852037109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.302988037109375
+        },
+        {
+          "batch": 1,
+          "end": 3.3264760078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.3257080078125
+        },
+        {
+          "batch": 1,
+          "end": 3.334924076171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.334028076171875
+        },
+        {
+          "batch": 1,
+          "end": 3.3433720742187503,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.34247607421875
+        },
+        {
+          "batch": 1,
+          "end": 3.36228421875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.36132421875
+        },
+        {
+          "batch": 1,
+          "end": 3.3680761757812503,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.36718017578125
+        },
+        {
+          "batch": 1,
+          "end": 3.379180216796875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.373772216796875
+        },
+        {
+          "batch": 1,
+          "end": 3.3830200605468748,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.381612060546875
+        },
+        {
+          "batch": 1,
+          "end": 3.417323138671875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.417067138671875
+        },
+        {
+          "batch": 1,
+          "end": 3.465355,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.420875
+        },
+        {
+          "batch": 1,
+          "end": 3.4682671796875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.4676591796875
+        },
+        {
+          "batch": 1,
+          "end": 3.512907208984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.468939208984375
+        },
+        {
+          "batch": 1,
+          "end": 3.51841118359375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.51476318359375
+        },
+        {
+          "batch": 1,
+          "end": 3.5633060078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.5190830078125
+        },
+        {
+          "batch": 1,
+          "end": 3.56429901171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.56356201171875
+        },
+        {
+          "batch": 1,
+          "end": 3.565323181640625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.564586181640625
+        },
+        {
+          "batch": 1,
+          "end": 3.5668261015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.5655791015625
+        },
+        {
+          "batch": 1,
+          "end": 3.5800110078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.5670830078125
+        },
+        {
+          "batch": 1,
+          "end": 3.580906078125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.580330078125
+        },
+        {
+          "batch": 1,
+          "end": 3.6258981425781247,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.581546142578125
+        },
+        {
+          "batch": 1,
+          "end": 3.628074052734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.626154052734375
+        },
+        {
+          "batch": 1,
+          "end": 3.631754078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.628330078125
+        },
+        {
+          "batch": 1,
+          "end": 3.7435299921875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.6320419921875
+        },
+        {
+          "batch": 1,
+          "end": 3.7487781328125003,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.7437861328125
+        },
+        {
+          "batch": 1,
+          "end": 3.749642056640625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.749258056640625
+        },
+        {
+          "batch": 1,
+          "end": 3.8847452128906252,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.750793212890625
+        },
+        {
+          "batch": 1,
+          "end": 3.886953203125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.885033203125
+        },
+        {
+          "batch": 1,
+          "end": 3.8906970078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.8872080078125
+        },
+        {
+          "batch": 1,
+          "end": 3.89376903515625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.89293603515625
+        },
+        {
+          "batch": 1,
+          "end": 3.938568162109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.894441162109375
+        },
+        {
+          "batch": 1,
+          "end": 3.94394421484375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.93972021484375
+        },
+        {
+          "batch": 1,
+          "end": 3.988679984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.944583984375
+        },
+        {
+          "batch": 1,
+          "end": 3.991208166015625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 3.990920166015625
+        },
+        {
+          "batch": 1,
+          "end": 4.0363601953125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 3.9922001953125
+        },
+        {
+          "batch": 1,
+          "end": 4.037416193359375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.036648193359375
+        },
+        {
+          "batch": 1,
+          "end": 4.038408119140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.037672119140625
+        },
+        {
+          "batch": 1,
+          "end": 4.0400720625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.0386640625
+        },
+        {
+          "batch": 1,
+          "end": 4.053223125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.040328125
+        },
+        {
+          "batch": 1,
+          "end": 4.054695203125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.054408203125
+        },
+        {
+          "batch": 1,
+          "end": 4.099463185546875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.055815185546875
+        },
+        {
+          "batch": 1,
+          "end": 4.101606994140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.099718994140625
+        },
+        {
+          "batch": 1,
+          "end": 4.105447037109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.101863037109375
+        },
+        {
+          "batch": 1,
+          "end": 4.2182151249999995,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.105703125
+        },
+        {
+          "batch": 1,
+          "end": 4.223591173828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.218503173828125
+        },
+        {
+          "batch": 1,
+          "end": 4.225031113281251,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.22439111328125
+        },
+        {
+          "batch": 1,
+          "end": 4.357094125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.225703125
+        },
+        {
+          "batch": 1,
+          "end": 4.359270080078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.357382080078125
+        },
+        {
+          "batch": 1,
+          "end": 4.3629821230468755,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.359526123046875
+        },
+        {
+          "batch": 1,
+          "end": 4.364134052734374,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.363654052734375
+        },
+        {
+          "batch": 1,
+          "end": 4.409125169921874,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.364774169921875
+        },
+        {
+          "batch": 1,
+          "end": 4.411238080078125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.410757080078125
+        },
+        {
+          "batch": 1,
+          "end": 4.455685197265625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.411877197265625
+        },
+        {
+          "batch": 1,
+          "end": 4.461285083984375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.457861083984375
+        },
+        {
+          "batch": 1,
+          "end": 4.50582903125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.46195703125
+        },
+        {
+          "batch": 1,
+          "end": 4.506853205078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.506085205078125
+        },
+        {
+          "batch": 1,
+          "end": 4.5078771308593755,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.507109130859375
+        },
+        {
+          "batch": 1,
+          "end": 4.509701056640625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.508133056640625
+        },
+        {
+          "batch": 1,
+          "end": 4.522789048828124,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.509925048828125
+        },
+        {
+          "batch": 1,
+          "end": 4.52426105859375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.52368505859375
+        },
+        {
+          "batch": 1,
+          "end": 4.568580052734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.525029052734375
+        },
+        {
+          "batch": 1,
+          "end": 4.5707561640625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.5688681640625
+        },
+        {
+          "batch": 1,
+          "end": 4.57456520703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.57101220703125
+        },
+        {
+          "batch": 1,
+          "end": 4.686884068359375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.574820068359375
+        },
+        {
+          "batch": 1,
+          "end": 4.692100189453124,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.687044189453125
+        },
+        {
+          "batch": 1,
+          "end": 4.694020126953125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.693380126953125
+        },
+        {
+          "batch": 1,
+          "end": 4.82633912109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.69472412109375
+        },
+        {
+          "batch": 1,
+          "end": 4.828515197265625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.826627197265625
+        },
+        {
+          "batch": 1,
+          "end": 4.83222699609375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.82877099609375
+        },
+        {
+          "batch": 1,
+          "end": 4.83312306640625,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.83264306640625
+        },
+        {
+          "batch": 1,
+          "end": 4.87795518359375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.83376318359375
+        },
+        {
+          "batch": 1,
+          "end": 4.8802270703124995,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.8797470703125
+        },
+        {
+          "batch": 1,
+          "end": 4.9245141875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.8808671875
+        },
+        {
+          "batch": 1,
+          "end": 4.925313984374999,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.924833984375
+        },
+        {
+          "batch": 1,
+          "end": 4.9696341015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.9259541015625
+        },
+        {
+          "batch": 1,
+          "end": 4.97062613671875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.96989013671875
+        },
+        {
+          "batch": 1,
+          "end": 4.971650080078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.970882080078125
+        },
+        {
+          "batch": 1,
+          "end": 4.973410005859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.971906005859375
+        },
+        {
+          "batch": 1,
+          "end": 4.986498015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.973666015625
+        },
+        {
+          "batch": 1,
+          "end": 4.989058125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 4.988578125
+        },
+        {
+          "batch": 1,
+          "end": 5.033442154296875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 4.989858154296875
+        },
+        {
+          "batch": 1,
+          "end": 5.03561798046875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.03372998046875
+        },
+        {
+          "batch": 1,
+          "end": 5.0394580234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.0358740234375
+        },
+        {
+          "batch": 1,
+          "end": 5.151489111328124,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.039714111328125
+        },
+        {
+          "batch": 1,
+          "end": 5.156769099609376,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.151777099609375
+        },
+        {
+          "batch": 1,
+          "end": 5.158753193359375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.158273193359375
+        },
+        {
+          "batch": 1,
+          "end": 5.292224048828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.159425048828125
+        },
+        {
+          "batch": 1,
+          "end": 5.29439998046875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.29247998046875
+        },
+        {
+          "batch": 1,
+          "end": 5.2982080234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.2946240234375
+        },
+        {
+          "batch": 1,
+          "end": 5.300063984375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.299583984375
+        },
+        {
+          "batch": 1,
+          "end": 5.3446721015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.3007041015625
+        },
+        {
+          "batch": 1,
+          "end": 5.3471679882812495,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.34668798828125
+        },
+        {
+          "batch": 1,
+          "end": 5.391360087890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.347840087890625
+        },
+        {
+          "batch": 1,
+          "end": 5.392224140624999,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.391744140625
+        },
+        {
+          "batch": 1,
+          "end": 5.436671013671875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.392864013671875
+        },
+        {
+          "batch": 1,
+          "end": 5.437694984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.436958984375
+        },
+        {
+          "batch": 1,
+          "end": 5.438687171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.437951171875
+        },
+        {
+          "batch": 1,
+          "end": 5.440511115234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.438943115234375
+        },
+        {
+          "batch": 1,
+          "end": 5.45363108984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.44076708984375
+        },
+        {
+          "batch": 1,
+          "end": 5.4591030253906245,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.455551025390625
+        },
+        {
+          "batch": 1,
+          "end": 5.5036791640625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.4597431640625
+        },
+        {
+          "batch": 1,
+          "end": 5.50582305859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.50393505859375
+        },
+        {
+          "batch": 1,
+          "end": 5.5096311015624995,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.5060791015625
+        },
+        {
+          "batch": 1,
+          "end": 5.62166220703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.50988720703125
+        },
+        {
+          "batch": 1,
+          "end": 5.627006195312499,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.6219501953125
+        },
+        {
+          "batch": 1,
+          "end": 5.6290542187499994,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.62857421875
+        },
+        {
+          "batch": 1,
+          "end": 5.76223707421875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.62972607421875
+        },
+        {
+          "batch": 1,
+          "end": 5.764445146484375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.762525146484375
+        },
+        {
+          "batch": 1,
+          "end": 5.768253171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.764701171875
+        },
+        {
+          "batch": 1,
+          "end": 5.7701730097656245,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.769885009765625
+        },
+        {
+          "batch": 1,
+          "end": 5.81465298828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.77081298828125
+        },
+        {
+          "batch": 1,
+          "end": 5.816989171875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.816701171875
+        },
+        {
+          "batch": 1,
+          "end": 5.861629150390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.817629150390625
+        },
+        {
+          "batch": 1,
+          "end": 5.86409317578125,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.86380517578125
+        },
+        {
+          "batch": 1,
+          "end": 5.9087641542968745,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.864733154296875
+        },
+        {
+          "batch": 1,
+          "end": 5.909787996093749,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.90902099609375
+        },
+        {
+          "batch": 1,
+          "end": 5.910780189453125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.910044189453125
+        },
+        {
+          "batch": 1,
+          "end": 5.9126041328125005,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.9110361328125
+        },
+        {
+          "batch": 1,
+          "end": 5.925724107421875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.912860107421875
+        },
+        {
+          "batch": 1,
+          "end": 5.9275799921875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 5.9272919921875
+        },
+        {
+          "batch": 1,
+          "end": 5.971836144531251,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.92834814453125
+        },
+        {
+          "batch": 1,
+          "end": 5.973980041015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.972092041015625
+        },
+        {
+          "batch": 1,
+          "end": 5.977788066406251,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.97426806640625
+        },
+        {
+          "batch": 1,
+          "end": 6.089883171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 5.978076171875
+        },
+        {
+          "batch": 1,
+          "end": 6.0951951601562495,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.09013916015625
+        },
+        {
+          "batch": 1,
+          "end": 6.097563146484375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 6.097275146484375
+        },
+        {
+          "batch": 1,
+          "end": 6.228795107421876,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.098235107421875
+        },
+        {
+          "batch": 1,
+          "end": 6.23097003125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.22908203125
+        },
+        {
+          "batch": 1,
+          "end": 6.23465007421875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.23122607421875
+        },
+        {
+          "batch": 1,
+          "end": 6.242139005859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.234906005859375
+        },
+        {
+          "batch": 1,
+          "end": 6.24322601953125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.24239501953125
+        },
+        {
+          "batch": 1,
+          "end": 6.249594177734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.243482177734375
+        },
+        {
+          "batch": 1,
+          "end": 6.254810130859375,
+          "kind": "logits_D2H",
+          "lane": "D stream 21",
+          "start": 6.254234130859375
+        },
+        {
+          "batch": 2,
+          "end": 4.68205216015625,
+          "kind": "H2D",
+          "lane": "D stream 25",
+          "start": 4.68176416015625
+        },
+        {
+          "batch": 2,
+          "end": 4.686692052734375,
+          "kind": "H2D",
+          "lane": "D stream 25",
+          "start": 4.686404052734375
+        },
+        {
+          "batch": 2,
+          "end": 6.259802201171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.258106201171875
+        },
+        {
+          "batch": 2,
+          "end": 6.261498087890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.260090087890625
+        },
+        {
+          "batch": 2,
+          "end": 6.263162150390626,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.261754150390625
+        },
+        {
+          "batch": 2,
+          "end": 6.266234212890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.263418212890625
+        },
+        {
+          "batch": 2,
+          "end": 6.2681222167968755,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.266522216796875
+        },
+        {
+          "batch": 2,
+          "end": 6.270010173828124,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.268378173828125
+        },
+        {
+          "batch": 2,
+          "end": 6.270874181640624,
+          "kind": "internal_D2H",
+          "lane": "D stream 21",
+          "start": 6.270586181640625
+        },
+        {
+          "batch": 2,
+          "end": 6.287994056640625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.287258056640625
+        },
+        {
+          "batch": 2,
+          "end": 6.29484218359375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.29413818359375
+        },
+        {
+          "batch": 2,
+          "end": 6.3005382109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.2998662109375
+        },
+        {
+          "batch": 2,
+          "end": 6.30786621484375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.30697021484375
+        },
+        {
+          "batch": 2,
+          "end": 6.31410608203125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.31343408203125
+        },
+        {
+          "batch": 2,
+          "end": 6.319226060546875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.318362060546875
+        },
+        {
+          "batch": 2,
+          "end": 6.341210138671875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.340442138671875
+        },
+        {
+          "batch": 2,
+          "end": 6.349306173828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.348378173828125
+        },
+        {
+          "batch": 2,
+          "end": 6.35765820703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.35676220703125
+        },
+        {
+          "batch": 2,
+          "end": 6.37666511328125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.37564111328125
+        },
+        {
+          "batch": 2,
+          "end": 6.38287405078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.38197705078125
+        },
+        {
+          "batch": 2,
+          "end": 6.394297216796875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.391897216796875
+        },
+        {
+          "batch": 2,
+          "end": 6.39756103515625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.39618603515625
+        },
+        {
+          "batch": 2,
+          "end": 6.4573690253906255,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.431801025390625
+        },
+        {
+          "batch": 2,
+          "end": 6.461912999999999,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.457625
+        },
+        {
+          "batch": 2,
+          "end": 6.487449171874999,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.462201171875
+        },
+        {
+          "batch": 2,
+          "end": 6.491673078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.487705078125
+        },
+        {
+          "batch": 2,
+          "end": 6.51724119921875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.49192919921875
+        },
+        {
+          "batch": 2,
+          "end": 6.5214650703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.5174970703125
+        },
+        {
+          "batch": 2,
+          "end": 6.52248919140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.52172119140625
+        },
+        {
+          "batch": 2,
+          "end": 6.5234811171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.5227451171875
+        },
+        {
+          "batch": 2,
+          "end": 6.524953060546875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.523737060546875
+        },
+        {
+          "batch": 2,
+          "end": 6.534296984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.525208984375
+        },
+        {
+          "batch": 2,
+          "end": 6.5612090234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.5362490234375
+        },
+        {
+          "batch": 2,
+          "end": 6.5653370703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.5614970703125
+        },
+        {
+          "batch": 2,
+          "end": 6.566872999999999,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.565625
+        },
+        {
+          "batch": 2,
+          "end": 6.570041150390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.567129150390625
+        },
+        {
+          "batch": 2,
+          "end": 6.597689146484375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 6.597400146484375
+        },
+        {
+          "batch": 2,
+          "end": 6.666808017578125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.598968017578125
+        },
+        {
+          "batch": 2,
+          "end": 6.669304191406249,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.66709619140625
+        },
+        {
+          "batch": 2,
+          "end": 6.74472705859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.66956005859375
+        },
+        {
+          "batch": 2,
+          "end": 6.751095154296875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.744983154296875
+        },
+        {
+          "batch": 2,
+          "end": 6.752631091796875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.751319091796875
+        },
+        {
+          "batch": 2,
+          "end": 6.75595920703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.75288720703125
+        },
+        {
+          "batch": 2,
+          "end": 6.781527087890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.756215087890625
+        },
+        {
+          "batch": 2,
+          "end": 6.785783203125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.781783203125
+        },
+        {
+          "batch": 2,
+          "end": 6.8113510625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.7860390625
+        },
+        {
+          "batch": 2,
+          "end": 6.815639177734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.811607177734375
+        },
+        {
+          "batch": 2,
+          "end": 6.841143019531249,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.81589501953125
+        },
+        {
+          "batch": 2,
+          "end": 6.845399169921875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.841399169921875
+        },
+        {
+          "batch": 2,
+          "end": 6.846391029296875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.845655029296875
+        },
+        {
+          "batch": 2,
+          "end": 6.84741519921875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.84667919921875
+        },
+        {
+          "batch": 2,
+          "end": 6.849239142578125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.847671142578125
+        },
+        {
+          "batch": 2,
+          "end": 6.8585511171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.8494951171875
+        },
+        {
+          "batch": 2,
+          "end": 6.88405421484375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.85909521484375
+        },
+        {
+          "batch": 2,
+          "end": 6.88818205859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.88431005859375
+        },
+        {
+          "batch": 2,
+          "end": 6.88968698828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.88843798828125
+        },
+        {
+          "batch": 2,
+          "end": 6.892854115234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.889943115234375
+        },
+        {
+          "batch": 2,
+          "end": 6.894742138671875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 6.893942138671875
+        },
+        {
+          "batch": 2,
+          "end": 6.9630620390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.8954150390625
+        },
+        {
+          "batch": 2,
+          "end": 6.965526115234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.963318115234375
+        },
+        {
+          "batch": 2,
+          "end": 7.041046208984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 6.965814208984375
+        },
+        {
+          "batch": 2,
+          "end": 7.0473500019531246,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.041302001953125
+        },
+        {
+          "batch": 2,
+          "end": 7.048918201171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.047606201171875
+        },
+        {
+          "batch": 2,
+          "end": 7.05199008984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.04914208984375
+        },
+        {
+          "batch": 2,
+          "end": 7.07711009375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.05224609375
+        },
+        {
+          "batch": 2,
+          "end": 7.0813662109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.0773662109375
+        },
+        {
+          "batch": 2,
+          "end": 7.1065490703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.0816220703125
+        },
+        {
+          "batch": 2,
+          "end": 7.110741158203125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.106837158203125
+        },
+        {
+          "batch": 2,
+          "end": 7.1359250527343745,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.111029052734375
+        },
+        {
+          "batch": 2,
+          "end": 7.14011715234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.13618115234375
+        },
+        {
+          "batch": 2,
+          "end": 7.141141029296874,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.140405029296875
+        },
+        {
+          "batch": 2,
+          "end": 7.142133216796875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.141397216796875
+        },
+        {
+          "batch": 2,
+          "end": 7.144053142578125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.142421142578125
+        },
+        {
+          "batch": 2,
+          "end": 7.153397064453125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.144341064453125
+        },
+        {
+          "batch": 2,
+          "end": 7.178965179687499,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.1539091796875
+        },
+        {
+          "batch": 2,
+          "end": 7.183157173828126,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.179253173828125
+        },
+        {
+          "batch": 2,
+          "end": 7.1846930859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.1834130859375
+        },
+        {
+          "batch": 2,
+          "end": 7.18779721875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.18494921875
+        },
+        {
+          "batch": 2,
+          "end": 7.18949302734375,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 7.18885302734375
+        },
+        {
+          "batch": 2,
+          "end": 7.257876056640625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.190133056640625
+        },
+        {
+          "batch": 2,
+          "end": 7.260340080078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.258132080078125
+        },
+        {
+          "batch": 2,
+          "end": 7.335764191406249,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.26059619140625
+        },
+        {
+          "batch": 2,
+          "end": 7.34187601953125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.33602001953125
+        },
+        {
+          "batch": 2,
+          "end": 7.3434120625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.3421640625
+        },
+        {
+          "batch": 2,
+          "end": 7.346516212890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.343668212890625
+        },
+        {
+          "batch": 2,
+          "end": 7.3719882167968755,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.346772216796875
+        },
+        {
+          "batch": 2,
+          "end": 7.376244140625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.372244140625
+        },
+        {
+          "batch": 2,
+          "end": 7.401747,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.3765
+        },
+        {
+          "batch": 2,
+          "end": 7.406003173828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.402003173828125
+        },
+        {
+          "batch": 2,
+          "end": 7.431507033203125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.406259033203125
+        },
+        {
+          "batch": 2,
+          "end": 7.435763166015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.431795166015625
+        },
+        {
+          "batch": 2,
+          "end": 7.43675504296875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.43601904296875
+        },
+        {
+          "batch": 2,
+          "end": 7.437746986328125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.437010986328125
+        },
+        {
+          "batch": 2,
+          "end": 7.43957115625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.43803515625
+        },
+        {
+          "batch": 2,
+          "end": 7.448883130859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.439859130859375
+        },
+        {
+          "batch": 2,
+          "end": 7.474291001953125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.449427001953125
+        },
+        {
+          "batch": 2,
+          "end": 7.4784831015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.4745791015625
+        },
+        {
+          "batch": 2,
+          "end": 7.480019013671875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.478739013671875
+        },
+        {
+          "batch": 2,
+          "end": 7.483443146484374,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.480275146484375
+        },
+        {
+          "batch": 2,
+          "end": 7.484531025390624,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 7.484051025390625
+        },
+        {
+          "batch": 2,
+          "end": 7.55355510546875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.48568310546875
+        },
+        {
+          "batch": 2,
+          "end": 7.5560500175781256,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.553843017578125
+        },
+        {
+          "batch": 2,
+          "end": 7.63157012890625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.55630712890625
+        },
+        {
+          "batch": 2,
+          "end": 7.637874171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.631826171875
+        },
+        {
+          "batch": 2,
+          "end": 7.639442109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.638162109375
+        },
+        {
+          "batch": 2,
+          "end": 7.642481998046875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.639697998046875
+        },
+        {
+          "batch": 2,
+          "end": 7.667794037109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.642738037109375
+        },
+        {
+          "batch": 2,
+          "end": 7.672050048828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.668050048828125
+        },
+        {
+          "batch": 2,
+          "end": 7.69729815234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.67230615234375
+        },
+        {
+          "batch": 2,
+          "end": 7.70155419921875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.69755419921875
+        },
+        {
+          "batch": 2,
+          "end": 7.72667305859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.70181005859375
+        },
+        {
+          "batch": 2,
+          "end": 7.73092919921875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.72692919921875
+        },
+        {
+          "batch": 2,
+          "end": 7.73195305859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.73118505859375
+        },
+        {
+          "batch": 2,
+          "end": 7.732912984375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.732208984375
+        },
+        {
+          "batch": 2,
+          "end": 7.7347691718750005,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.733201171875
+        },
+        {
+          "batch": 2,
+          "end": 7.744049146484375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.735025146484375
+        },
+        {
+          "batch": 2,
+          "end": 7.769745017578125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.744593017578125
+        },
+        {
+          "batch": 2,
+          "end": 7.7738729765625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.7700009765625
+        },
+        {
+          "batch": 2,
+          "end": 7.775409150390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.774129150390625
+        },
+        {
+          "batch": 2,
+          "end": 7.7785450390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.7756650390625
+        },
+        {
+          "batch": 2,
+          "end": 7.7804651074218745,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 7.779985107421875
+        },
+        {
+          "batch": 2,
+          "end": 7.849361048828125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.781425048828125
+        },
+        {
+          "batch": 2,
+          "end": 7.851825187499999,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.8496171875
+        },
+        {
+          "batch": 2,
+          "end": 7.9274720546875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.8520810546875
+        },
+        {
+          "batch": 2,
+          "end": 7.93380802734375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.92772802734375
+        },
+        {
+          "batch": 2,
+          "end": 7.9353762089843745,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.934064208984375
+        },
+        {
+          "batch": 2,
+          "end": 7.938608080078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.935632080078125
+        },
+        {
+          "batch": 2,
+          "end": 7.96423999609375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.93889599609375
+        },
+        {
+          "batch": 2,
+          "end": 7.968560076171875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.964528076171875
+        },
+        {
+          "batch": 2,
+          "end": 7.994096162109375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.968816162109375
+        },
+        {
+          "batch": 2,
+          "end": 7.99832005078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.99435205078125
+        },
+        {
+          "batch": 2,
+          "end": 8.023792154296876,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 7.998608154296875
+        },
+        {
+          "batch": 2,
+          "end": 8.028080078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.024080078125
+        },
+        {
+          "batch": 2,
+          "end": 8.029104181640625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.028336181640626
+        },
+        {
+          "batch": 2,
+          "end": 8.030096107421874,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.029360107421875
+        },
+        {
+          "batch": 2,
+          "end": 8.03201605078125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.03035205078125
+        },
+        {
+          "batch": 2,
+          "end": 8.041328216796874,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.032272216796875
+        },
+        {
+          "batch": 2,
+          "end": 8.0666400703125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.0418720703125
+        },
+        {
+          "batch": 2,
+          "end": 8.07079999609375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.06689599609375
+        },
+        {
+          "batch": 2,
+          "end": 8.07233515234375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.07105615234375
+        },
+        {
+          "batch": 2,
+          "end": 8.075408064453125,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.072591064453125
+        },
+        {
+          "batch": 2,
+          "end": 8.07796719921875,
+          "kind": "memset",
+          "lane": "D stream 21",
+          "start": 8.07767919921875
+        },
+        {
+          "batch": 2,
+          "end": 8.14651116015625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.07863916015625
+        },
+        {
+          "batch": 2,
+          "end": 8.149071072265626,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.146799072265624
+        },
+        {
+          "batch": 2,
+          "end": 8.2243991484375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.1493271484375
+        },
+        {
+          "batch": 2,
+          "end": 8.230510029296875,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.224655029296875
+        },
+        {
+          "batch": 2,
+          "end": 8.232046113281251,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.23076611328125
+        },
+        {
+          "batch": 2,
+          "end": 8.235149978515624,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.232302978515625
+        },
+        {
+          "batch": 2,
+          "end": 8.243502005859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.235406005859375
+        },
+        {
+          "batch": 2,
+          "end": 8.2447820390625,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.2437900390625
+        },
+        {
+          "batch": 2,
+          "end": 8.2511180859375,
+          "kind": "kernel",
+          "lane": "D stream 21",
+          "start": 8.2450380859375
+        },
+        {
+          "batch": 2,
+          "end": 8.25643008984375,
+          "kind": "logits_D2H",
+          "lane": "D stream 21",
+          "start": 8.25614208984375
+        }
+      ]
+    }
+  ],
+  "height": 160,
+  "legends": [
+    {
+      "direction": "horizontal",
+      "fill": "color",
+      "orient": "bottom"
+    }
+  ],
+  "marks": [
+    {
+      "clip": true,
+      "encode": {
+        "enter": {
+          "fill": {
+            "field": "kind",
+            "scale": "color"
+          },
+          "height": {
+            "band": 1,
+            "scale": "y"
+          },
+          "x": {
+            "field": "start",
+            "scale": "x"
+          },
+          "x2": {
+            "field": "end",
+            "scale": "x"
+          },
+          "y": {
+            "field": "lane",
+            "scale": "y"
+          }
+        }
+      },
+      "from": {
+        "data": "events"
+      },
+      "type": "rect"
+    }
+  ],
+  "padding": {
+    "bottom": 95,
+    "left": 115,
+    "right": 35,
+    "top": 75
+  },
+  "scales": [
+    {
+      "domain": [
+        1.664494140625,
+        1.67951805078125
+      ],
+      "name": "x",
+      "range": "width",
+      "type": "linear",
+      "zero": false
+    },
+    {
+      "domain": [
+        "D stream 21",
+        "D stream 25"
+      ],
+      "name": "y",
+      "padding": 0.3,
+      "range": "height",
+      "type": "band"
+    },
+    {
+      "domain": [
+        "kernel",
+        "H2D",
+        "logits_D2H",
+        "internal_D2H",
+        "memset"
+      ],
+      "name": "color",
+      "range": [
+        "#475569",
+        "#2563eb",
+        "#16a34a",
+        "#dc2626",
+        "#cbd5e1"
+      ],
+      "type": "ordinal"
+    }
+  ],
+  "title": {
+    "anchor": "start",
+    "subtitle": [
+      "B=8, N=19, batches [8,8,3]; one profiled sequence per variant",
+      "Actual intervals; each variant starts at its first GPU activity. Profiled timing is excluded from benchmark raw."
+    ],
+    "text": "D: H2D of batch 1 overlaps batch 0 kernels"
+  },
+  "width": 900
+}

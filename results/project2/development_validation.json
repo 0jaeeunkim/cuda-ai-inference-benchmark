@@ -1,0 +1,42 @@
+{
+  "current_protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+  "failed_smoke": {
+    "error": "ModuleNotFoundError: No module named 'torch'",
+    "path": "results/project2/smoke/2026-10-25T104647.110253_0000_67d5d263",
+    "protocol_sha256": "57b1ea11cd034fe554af032a173da92363eccb57c2966d2ffcd80fabcab65357",
+    "session_id": "2026-10-25T104647.110253_0000_67d5d263",
+    "status": "failed"
+  },
+  "project1": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "recorded_at_utc": "2026-10-25T10:51:52.567284+00:00",
+  "runtime_gates": {
+    "correctness": false,
+    "environment": "blocked",
+    "full_benchmark_run": false,
+    "smoke": false
+  },
+  "scheduler_simulations": {
+    "cases": 3,
+    "interleavings_per_case": 12,
+    "negative_control_detected_slot_overwrite": true,
+    "passed": true,
+    "real_cuda": false,
+    "variants": 4
+  },
+  "standard_library_tests": {
+    "command": "python3 -m unittest discover -s tests -p 'test_project2*.py' -v",
+    "gpu_validation": false,
+    "passed": 10,
+    "tests": 10
+  },
+  "syntax": {
+    "bash_n": true,
+    "git_diff_check": true,
+    "py_compile": true,
+    "python_3_10_grammar": true
+  }
+}

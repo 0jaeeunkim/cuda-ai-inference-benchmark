@@ -1,0 +1,34 @@
+{
+  "all_correctness_pass": true,
+  "coverage_checks": 12,
+  "environment_sha256": "910146957dbf7b1b5000d900063643b819208df900cc609f13e76b417a0878fd",
+  "full_benchmark_run": false,
+  "full_correctness_run": false,
+  "max_abs_error": 0.0,
+  "negative_gate_checks": {
+    "missing_correctness_rejected": "Missing correctness gate; run --mode correctness first",
+    "stale_smoke_rejected": "Stale smoke gate: source/protocol/environment/input changed"
+  },
+  "overlap_observed": "not profiled",
+  "project1": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+  "raw_rows": 24,
+  "session_id": "2026-10-25T112508.818449_0000_40f9eefb",
+  "session_path": "results/project2/smoke/2026-10-25T112508.818449_0000_40f9eefb",
+  "smoke_gate": {
+    "gate_sha256": "de2dc6dda5f097305a18b83300cbd4a58c41111ebc51d93a556348f4a0b15261",
+    "session_id": "2026-10-25T112508.818449_0000_40f9eefb"
+  },
+  "sync_probe": {
+    "device_synchronize": "all device streams; main completion",
+    "event_synchronize": "recorded event; CPU waits before reading",
+    "passed": true,
+    "stream_synchronize": "selected stream; CPU waits",
+    "stream_wait_event": "GPU dependency; producer record submitted before wait"
+  },
+  "validated_at_utc": "2026-10-25T11:26:02.217918+00:00"
+}

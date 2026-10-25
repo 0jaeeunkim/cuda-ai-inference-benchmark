@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/jekim/cuda/cuda-ai-inference-benchmark/src/project2_pipeline.py", line 410, in run
+    torch = configure()
+            ^^^^^^^^^^^
+  File "/home/jekim/cuda/cuda-ai-inference-benchmark/src/project2_pipeline.py", line 44, in configure
+    import torch
+ModuleNotFoundError: No module named 'torch'

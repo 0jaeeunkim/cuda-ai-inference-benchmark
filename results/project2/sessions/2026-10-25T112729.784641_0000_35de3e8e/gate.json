@@ -1,0 +1,18 @@
+{
+  "artifacts": {
+    "correctness.json": "f39c3cf788299dd66b30c42c4341b1bd0e736aa07217c5580a62262665266940",
+    "metadata.json": "63e8b9bf1ff9228a0180871c7094d09d770767ae47f237defcf1de117be791f7",
+    "raw.csv": "920aeb72935bf485936af25cb37726482160f1128bb8636ce1e361f41db39aa6",
+    "reference_b1_n872.pt": "0d0bd00128185964e8781f8de3ff3ab2ee8c2b77996f0ccb288f1c8ee4fa930f",
+    "reference_b64_n872.pt": "9ced453a19f68e6e41fd0f728db3e5aec4e12c89950683f26e7fb04b8b7cd4c1",
+    "reference_b8_n872.pt": "54f097475a2756f3c5c0efc96f94f81d67d0b9e703bf588768848e20bb42c597"
+  },
+  "identity": {
+    "environment_sha256": "910146957dbf7b1b5000d900063643b819208df900cc609f13e76b417a0878fd",
+    "project1_manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+    "runtime_sha256": "055c434e617192e677445c0d72a12fa969afc4d831a35a3549101b0ddb52a9b5",
+    "workload_sha256": "9fdaa3ba54e92a39e84fd8cbe059c681a34f8e66dbb5002b36cc5fc66d638381"
+  },
+  "passed": true
+}

@@ -1,0 +1,1005 @@
+{
+  "command": [
+    "/home/jekim/miniforge3/envs/cuda-project2/bin/python",
+    "src/project2_pipeline.py",
+    "--mode",
+    "smoke"
+  ],
+  "correctness_sha256": "4d84ee5f4ef091755755ab3269dbec20ec8d0aa00ba9d64080309812f0b307de",
+  "cwd": "/home/jekim/cuda/cuda-ai-inference-benchmark",
+  "environment_sha256": "910146957dbf7b1b5000d900063643b819208df900cc609f13e76b417a0878fd",
+  "environment_snapshot": "results/project2/environments/717460e9743d7848dfbddf5f4de6fa9baec03b95cb3d86e11ee2a0e73d8fe38c.json",
+  "finished_at_utc": "2026-10-25T11:25:12.084607+00:00",
+  "git_status": "M .gitignore\n M AGENTS.md\n M README.md\n?? docs/\n?? results/project2/\n?? scripts/project2_setup.sh\n?? src/project2_analysis.py\n?? src/project2_pipeline.py\n?? src/project2_protocol.py\n?? tests/",
+  "gpu_state_end": "NVIDIA GeForce RTX 5070 Ti, 54, 2707 MHz, 13801 MHz, 1925 MiB, 99 %",
+  "gpu_state_start": "NVIDIA GeForce RTX 5070 Ti, 34, 195 MHz, 405 MHz, 15 MiB, 0 %",
+  "identity": {
+    "environment_sha256": "910146957dbf7b1b5000d900063643b819208df900cc609f13e76b417a0878fd",
+    "project1_manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+    "runtime_sha256": "055c434e617192e677445c0d72a12fa969afc4d831a35a3549101b0ddb52a9b5",
+    "workload_sha256": "9fdaa3ba54e92a39e84fd8cbe059c681a34f8e66dbb5002b36cc5fc66d638381"
+  },
+  "inputs_sha256": "11b746ab2df922a89b3044abb1be0cc726b5453f14a16bbd9e4c037e1542d0ad",
+  "labels_sha256": "7db94999d9eb0a88ad52f5ed4fd70f7d4def5d922a55e6f24d3d2d2b1501e33d",
+  "mode": "smoke",
+  "policy": {
+    "atol": 1e-05,
+    "batch_sizes": [
+      1,
+      8,
+      64
+    ],
+    "completion": "all CPU FP32 [N,2] logits in original order; same final device sync",
+    "cpu_threads": 8,
+    "dataset_config": "sst2",
+    "dataset_id": "nyu-mll/glue",
+    "dataset_revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+    "dataset_split": "validation",
+    "device_input_slots": 2,
+    "dtype": "float32",
+    "events": "per-batch upload-ready/input-consumed; precreated; no rerecord generations",
+    "excluded": [
+      "imports",
+      "tokenization",
+      "model load",
+      "buffer/pinning/stream/event setup",
+      "warmup",
+      "correctness",
+      "file I/O",
+      "profiling"
+    ],
+    "full_rounds": 32,
+    "host_memory": {
+      "A": "pageable",
+      "B": "pinned",
+      "C": "pinned",
+      "D": "pinned"
+    },
+    "input_dtype": "int64",
+    "matmul_precision": "highest",
+    "metric": "prepared-buffer warm E2E total time",
+    "model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+    "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+    "orders": [
+      "ABDC",
+      "BCAD",
+      "CDBA",
+      "DACB"
+    ],
+    "protocol_id": "project2_prepared_buffer_full_logits_v1",
+    "rtol": 0.0001,
+    "sample_count": 872,
+    "sequence_length": 64,
+    "smoke_cases": [
+      [
+        1,
+        5
+      ],
+      [
+        8,
+        19
+      ],
+      [
+        64,
+        137
+      ]
+    ],
+    "smoke_rounds": 2,
+    "smoke_warmup": 1,
+    "streams": {
+      "ABC": "one compute stream: H2D -> forward -> D2H",
+      "D": "copy: H2D; compute: forward -> D2H"
+    },
+    "tf32": false,
+    "timer": "device synchronize; perf_counter_ns; all H2D/forward/D2H; device synchronize; stop",
+    "variants": "ABCD",
+    "warmup_sequences": 5
+  },
+  "project1_after": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "protocol_id": "project2_prepared_buffer_full_logits_v1",
+  "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+  "raw_sha256": "991f2fe3238685a9b841e69c0784b2eac11d808631ba01164eeb0d3d20836dc8",
+  "references": {
+    "1": {
+      "accuracy_vs_dataset_labels": 1.0,
+      "file": "reference_b1_n5.pt",
+      "file_sha256": "a8bc7f1248e35c21934973e527a459fd4f0d04c9e6b0df505746404d99cfb9ab",
+      "input_sha256": "c188c44f0a48d1169a68bf65e96c2433e70712322080e873d675e166072380c0",
+      "logits_sha256": "40a185fb3a36c4970a5059f095e14ba726fb2decdbce48c5acbaa1b49283ff38"
+    },
+    "64": {
+      "accuracy_vs_dataset_labels": 0.9124087691307068,
+      "file": "reference_b64_n137.pt",
+      "file_sha256": "25f72d10b0d768fb22a3fb6dd5a6b140e1fb08d20d8ee38a0ceace874da0d86c",
+      "input_sha256": "11b746ab2df922a89b3044abb1be0cc726b5453f14a16bbd9e4c037e1542d0ad",
+      "logits_sha256": "09d24a9ba70e2da5108079fb03a4af5d2e3e7d1eece9d2ba96b3691b06437a53"
+    },
+    "8": {
+      "accuracy_vs_dataset_labels": 1.0,
+      "file": "reference_b8_n19.pt",
+      "file_sha256": "c2e14f3fa7f145a0d9b4e4159524c735ab847e245ae4e9e683fc5fca54eb3307",
+      "input_sha256": "76aa3fabbaaa23cdd7c70e4d2e546e379ce324643d4c0acc7cf004d0900abed6",
+      "logits_sha256": "f51b0b7ce03c3452df26255e63e183ec50db601dbd1529863e8e82e618168ada"
+    }
+  },
+  "row_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136
+  ],
+  "runtime": {
+    "cache": {
+      "HF_DATASETS_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/datasets",
+      "HF_DATASETS_OFFLINE": "1",
+      "HF_HOME": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface",
+      "HF_HUB_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/hub",
+      "HF_HUB_OFFLINE": "1"
+    },
+    "compute_capability": [
+      12,
+      0
+    ],
+    "cpu_threads": 8,
+    "cuda_arch_list": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ],
+    "cuda_matmul_allow_tf32": false,
+    "cuda_runtime": "13.0",
+    "cuda_visible_devices": null,
+    "cudnn_allow_tf32": false,
+    "cudnn_version": 92000,
+    "driver": "595.99.02",
+    "float32_matmul_precision": "highest",
+    "gpu_memory_bytes": 16611278848,
+    "gpu_name": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_uuid": "4b7a0d92-339c-14ef-271c-2cf8fb82caa7",
+    "interop_threads": 16,
+    "packages": {
+      "datasets": "5.0.1",
+      "huggingface-hub": "1.32.0",
+      "tokenizers": "0.23.2",
+      "torch": "2.12.0+cu130",
+      "transformers": "5.16.1"
+    },
+    "python": "3.10.20",
+    "python_executable": "/home/jekim/miniforge3/envs/cuda-project2/bin/python"
+  },
+  "session_id": "2026-10-25T112508.818449_0000_40f9eefb",
+  "setups": {
+    "1": {
+      "A": {
+        "actual_batch_sizes": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "buffer_stream_event_setup_ms": 0.176756,
+        "device_input_bytes": 2048,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183759872,
+            136301183760384
+          ],
+          [
+            136301183760384,
+            136301183760896
+          ],
+          [
+            136301183760896,
+            136301183761408
+          ],
+          [
+            136301183761408,
+            136301183761920
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.024697,
+        "host_bytes": 5160,
+        "host_pinned": false,
+        "output_storage_ranges": [
+          [
+            106350158197056,
+            106350158197064
+          ],
+          [
+            106350158197064,
+            106350158197072
+          ],
+          [
+            106350158197072,
+            106350158197080
+          ],
+          [
+            106350158197080,
+            106350158197088
+          ],
+          [
+            106350158197088,
+            106350158197096
+          ]
+        ],
+        "pinned_bytes": 0,
+        "stream_ids": {
+          "compute": 106350156400992,
+          "copy": 106350156400992
+        },
+        "variant": "A"
+      },
+      "B": {
+        "actual_batch_sizes": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "buffer_stream_event_setup_ms": 0.094269,
+        "device_input_bytes": 2048,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183761920,
+            136301183762432
+          ],
+          [
+            136301183762432,
+            136301183762944
+          ],
+          [
+            136301183762944,
+            136301183763456
+          ],
+          [
+            136301183763456,
+            136301183763968
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.024186,
+        "host_bytes": 5160,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980085760,
+            136300980085768
+          ],
+          [
+            136300980085768,
+            136300980085776
+          ],
+          [
+            136300980085776,
+            136300980085784
+          ],
+          [
+            136300980085784,
+            136300980085792
+          ],
+          [
+            136300980085792,
+            136300980085800
+          ]
+        ],
+        "pinned_bytes": 5160,
+        "stream_ids": {
+          "compute": 106350156458880,
+          "copy": 106350156458880
+        },
+        "variant": "B"
+      },
+      "C": {
+        "actual_batch_sizes": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "buffer_stream_event_setup_ms": 0.070494,
+        "device_input_bytes": 2048,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183763968,
+            136301183764480
+          ],
+          [
+            136301183764480,
+            136301183764992
+          ],
+          [
+            136301183764992,
+            136301183765504
+          ],
+          [
+            136301183765504,
+            136301183766016
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.013044,
+        "host_bytes": 5160,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980094464,
+            136300980094472
+          ],
+          [
+            136300980094472,
+            136300980094480
+          ],
+          [
+            136300980094480,
+            136300980094488
+          ],
+          [
+            136300980094488,
+            136300980094496
+          ],
+          [
+            136300980094496,
+            136300980094504
+          ]
+        ],
+        "pinned_bytes": 5160,
+        "stream_ids": {
+          "compute": 106350156472224,
+          "copy": 106350156472224
+        },
+        "variant": "C"
+      },
+      "D": {
+        "actual_batch_sizes": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "buffer_stream_event_setup_ms": 0.091965,
+        "device_input_bytes": 2048,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183766016,
+            136301183766528
+          ],
+          [
+            136301183766528,
+            136301183767040
+          ],
+          [
+            136301183767040,
+            136301183767552
+          ],
+          [
+            136301183767552,
+            136301183768064
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.012674,
+        "host_bytes": 5160,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980103168,
+            136300980103176
+          ],
+          [
+            136300980103176,
+            136300980103184
+          ],
+          [
+            136300980103184,
+            136300980103192
+          ],
+          [
+            136300980103192,
+            136300980103200
+          ],
+          [
+            136300980103200,
+            136300980103208
+          ]
+        ],
+        "pinned_bytes": 5160,
+        "stream_ids": {
+          "compute": 106350156530112,
+          "copy": 106350156542816
+        },
+        "variant": "D"
+      }
+    },
+    "64": {
+      "A": {
+        "actual_batch_sizes": [
+          64,
+          64,
+          9
+        ],
+        "buffer_stream_event_setup_ms": 0.133744,
+        "device_input_bytes": 131072,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183780352,
+            136301183813120
+          ],
+          [
+            136301183813120,
+            136301183845888
+          ],
+          [
+            136301183845888,
+            136301183878656
+          ],
+          [
+            136301183878656,
+            136301183911424
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.03689,
+        "host_bytes": 141384,
+        "host_pinned": false,
+        "output_storage_ranges": [
+          [
+            106350158202752,
+            106350158203264
+          ],
+          [
+            106350158203264,
+            106350158203776
+          ],
+          [
+            106350158203776,
+            106350158203848
+          ]
+        ],
+        "pinned_bytes": 0,
+        "stream_ids": {
+          "compute": 106350156757152,
+          "copy": 106350156757152
+        },
+        "variant": "A"
+      },
+      "B": {
+        "actual_batch_sizes": [
+          64,
+          64,
+          9
+        ],
+        "buffer_stream_event_setup_ms": 0.097124,
+        "device_input_bytes": 131072,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183911424,
+            136301183944192
+          ],
+          [
+            136301183944192,
+            136301183976960
+          ],
+          [
+            136301183976960,
+            136301184009728
+          ],
+          [
+            136301184009728,
+            136301184042496
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.03159,
+        "host_bytes": 141384,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980466176,
+            136300980466688
+          ],
+          [
+            136300980466688,
+            136300980467200
+          ],
+          [
+            136300980467200,
+            136300980467272
+          ]
+        ],
+        "pinned_bytes": 141384,
+        "stream_ids": {
+          "compute": 106350156815040,
+          "copy": 106350156815040
+        },
+        "variant": "B"
+      },
+      "C": {
+        "actual_batch_sizes": [
+          64,
+          64,
+          9
+        ],
+        "buffer_stream_event_setup_ms": 0.07332,
+        "device_input_bytes": 131072,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301184042496,
+            136301184075264
+          ],
+          [
+            136301184075264,
+            136301184108032
+          ],
+          [
+            136301184108032,
+            136301184140800
+          ],
+          [
+            136301184140800,
+            136301184173568
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.017524,
+        "host_bytes": 141384,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980730368,
+            136300980730880
+          ],
+          [
+            136300980730880,
+            136300980731392
+          ],
+          [
+            136300980731392,
+            136300980731464
+          ]
+        ],
+        "pinned_bytes": 141384,
+        "stream_ids": {
+          "compute": 106350156828384,
+          "copy": 106350156828384
+        },
+        "variant": "C"
+      },
+      "D": {
+        "actual_batch_sizes": [
+          64,
+          64,
+          9
+        ],
+        "buffer_stream_event_setup_ms": 0.094449,
+        "device_input_bytes": 131072,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301184173568,
+            136301184206336
+          ],
+          [
+            136301184206336,
+            136301184239104
+          ],
+          [
+            136301184239104,
+            136301184271872
+          ],
+          [
+            136301184271872,
+            136301184304640
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.017454,
+        "host_bytes": 141384,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980994560,
+            136300980995072
+          ],
+          [
+            136300980995072,
+            136300980995584
+          ],
+          [
+            136300980995584,
+            136300980995656
+          ]
+        ],
+        "pinned_bytes": 141384,
+        "stream_ids": {
+          "compute": 106350156600704,
+          "copy": 106350157259344
+        },
+        "variant": "D"
+      }
+    },
+    "8": {
+      "A": {
+        "actual_batch_sizes": [
+          8,
+          8,
+          3
+        ],
+        "buffer_stream_event_setup_ms": 0.166957,
+        "device_input_bytes": 16384,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183759872,
+            136301183763968
+          ],
+          [
+            136301183768064,
+            136301183772160
+          ],
+          [
+            136301183772160,
+            136301183776256
+          ],
+          [
+            136301183776256,
+            136301183780352
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.034035,
+        "host_bytes": 19608,
+        "host_pinned": false,
+        "output_storage_ranges": [
+          [
+            106350318256192,
+            106350318256256
+          ],
+          [
+            106350318256256,
+            106350318256320
+          ],
+          [
+            106350318256320,
+            106350318256344
+          ]
+        ],
+        "pinned_bytes": 0,
+        "stream_ids": {
+          "compute": 106350089571584,
+          "copy": 106350089571584
+        },
+        "variant": "A"
+      },
+      "B": {
+        "actual_batch_sizes": [
+          8,
+          8,
+          3
+        ],
+        "buffer_stream_event_setup_ms": 0.118736,
+        "device_input_bytes": 16384,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183780352,
+            136301183784448
+          ],
+          [
+            136301183784448,
+            136301183788544
+          ],
+          [
+            136301183788544,
+            136301183792640
+          ],
+          [
+            136301183792640,
+            136301183796736
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.040407,
+        "host_bytes": 19608,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980136960,
+            136300980137024
+          ],
+          [
+            136300980137024,
+            136300980137088
+          ],
+          [
+            136300980137088,
+            136300980137112
+          ]
+        ],
+        "pinned_bytes": 19608,
+        "stream_ids": {
+          "compute": 106350156615328,
+          "copy": 106350156615328
+        },
+        "variant": "B"
+      },
+      "C": {
+        "actual_batch_sizes": [
+          8,
+          8,
+          3
+        ],
+        "buffer_stream_event_setup_ms": 0.093297,
+        "device_input_bytes": 16384,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183796736,
+            136301183800832
+          ],
+          [
+            136301183800832,
+            136301183804928
+          ],
+          [
+            136301183804928,
+            136301183809024
+          ],
+          [
+            136301183809024,
+            136301183813120
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.023134,
+        "host_bytes": 19608,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980170240,
+            136300980170304
+          ],
+          [
+            136300980170304,
+            136300980170368
+          ],
+          [
+            136300980170368,
+            136300980170392
+          ]
+        ],
+        "pinned_bytes": 19608,
+        "stream_ids": {
+          "compute": 106350156673216,
+          "copy": 106350156673216
+        },
+        "variant": "C"
+      },
+      "D": {
+        "actual_batch_sizes": [
+          8,
+          8,
+          3
+        ],
+        "buffer_stream_event_setup_ms": 0.123093,
+        "device_input_bytes": 16384,
+        "device_input_slots": 2,
+        "device_storage_ranges": [
+          [
+            136301183813120,
+            136301183817216
+          ],
+          [
+            136301183817216,
+            136301183821312
+          ],
+          [
+            136301183821312,
+            136301183825408
+          ],
+          [
+            136301183825408,
+            136301183829504
+          ]
+        ],
+        "host_allocation_and_copy_setup_ms": 0.019156,
+        "host_bytes": 19608,
+        "host_pinned": true,
+        "output_storage_ranges": [
+          [
+            136300980203520,
+            136300980203584
+          ],
+          [
+            136300980203584,
+            136300980203648
+          ],
+          [
+            136300980203648,
+            136300980203672
+          ]
+        ],
+        "pinned_bytes": 19608,
+        "stream_ids": {
+          "compute": 106350156686560,
+          "copy": 106350156744448
+        },
+        "variant": "D"
+      }
+    }
+  },
+  "source_commit": "4ab640f994c489254ce28c384a2d7f415e5061e4",
+  "sources": {
+    "docs/project2/PROJECT_SPEC.md": "8db277abd58d8ec93a00afc9c85ee579bb0fbcb32c5ea43ce31d899a3d517844",
+    "src/project2_analysis.py": "d45c75eb57d426c6f67b6051aaebb18bf1d4151ced4fa548e5f2ee1190e8c433",
+    "src/project2_pipeline.py": "4a6ba2afc74ab47bf55c7096df4d5c5f3cbdd3d52a179f638f31324c9a14e133",
+    "src/project2_protocol.py": "9c5275620bdd75d9ca1b1a8f165a1d4475057aa1f034dba2774726035db4b631"
+  },
+  "started_at_utc": "2026-10-25T11:25:08.818519+00:00",
+  "status": "completed",
+  "variants": "ABCD",
+  "workload": {
+    "attention_implementation": "sdpa",
+    "dataset_content_sha256": "c0ab502188190114e051e9cb56be0abb0a406f5481dfc7cc79fc87ce1b4da898",
+    "dataset_fingerprint": "0e2b00033b48693f",
+    "dataset_id": "nyu-mll/glue",
+    "dataset_revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+    "legacy_datasets_version": "5.0.1",
+    "model_files_sha256": {
+      "config.json": "582122c8f414793d131e10022ce9ba04e3811a9da6389137ee2f18665b4f4d15",
+      "model.safetensors": "7c3919835e442510166d267fe7cbe847e0c51cd26d9ba07b89a57b952b49b8aa",
+      "tokenizer_config.json": "5ab9097b4149371c5fd52b2d6e26cb6f9c07c0d19fcfdda895b1adad6b57c3e0",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+    "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+    "model_snapshot": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/hub/models--distilbert-base-uncased-finetuned-sst-2-english/snapshots/714eb0fa89d2f80546fda750413ed43d93601a13",
+    "prefix_137_inputs_sha256": "11b746ab2df922a89b3044abb1be0cc726b5453f14a16bbd9e4c037e1542d0ad",
+    "tokenizer_backend": "tokenizers",
+    "tokenizer_class": "BertTokenizer",
+    "tokenizer_is_fast": true,
+    "tokenizer_reported_revision": null,
+    "tokenizer_requested_revision": "714eb0fa89d2f80546fda750413ed43d93601a13"
+  }
+}

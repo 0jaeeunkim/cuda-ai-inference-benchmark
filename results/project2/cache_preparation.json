@@ -1,0 +1,41 @@
+{
+  "cache": {
+    "HF_DATASETS_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/datasets",
+    "HF_DATASETS_OFFLINE": "0",
+    "HF_HOME": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface",
+    "HF_HUB_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/hub",
+    "HF_HUB_OFFLINE": "0"
+  },
+  "completed_at_utc": "2026-10-25T11:22:11.023465+00:00",
+  "model_parameters": 66955010,
+  "packages": {
+    "datasets": "5.0.1",
+    "huggingface-hub": "1.32.0",
+    "tokenizers": "0.23.2",
+    "torch": "2.12.0+cu130",
+    "transformers": "5.16.1"
+  },
+  "workload": {
+    "attention_implementation": "sdpa",
+    "dataset_content_sha256": "c0ab502188190114e051e9cb56be0abb0a406f5481dfc7cc79fc87ce1b4da898",
+    "dataset_fingerprint": "0e2b00033b48693f",
+    "dataset_id": "nyu-mll/glue",
+    "dataset_revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+    "legacy_datasets_version": "5.0.1",
+    "model_files_sha256": {
+      "config.json": "582122c8f414793d131e10022ce9ba04e3811a9da6389137ee2f18665b4f4d15",
+      "model.safetensors": "7c3919835e442510166d267fe7cbe847e0c51cd26d9ba07b89a57b952b49b8aa",
+      "tokenizer_config.json": "5ab9097b4149371c5fd52b2d6e26cb6f9c07c0d19fcfdda895b1adad6b57c3e0",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "model_id": "distilbert-base-uncased-finetuned-sst-2-english",
+    "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+    "model_snapshot": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/hub/models--distilbert-base-uncased-finetuned-sst-2-english/snapshots/714eb0fa89d2f80546fda750413ed43d93601a13",
+    "prefix_137_inputs_sha256": null,
+    "tokenizer_backend": "tokenizers",
+    "tokenizer_class": "BertTokenizer",
+    "tokenizer_is_fast": true,
+    "tokenizer_reported_revision": null,
+    "tokenizer_requested_revision": "714eb0fa89d2f80546fda750413ed43d93601a13"
+  }
+}

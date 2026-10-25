@@ -1,0 +1,21 @@
+{
+  "benchmark_protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+  "issue": "curl missing; dependent stages attempted without Conda",
+  "project1": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "recorded_at_utc": "2026-10-25T10:57:20.061460+00:00",
+  "runtime_gate": "pending user setup",
+  "validation": {
+    "bash_syntax": true,
+    "command": "python3 -m unittest discover -s tests -p 'test_project2_setup.py' -v",
+    "git_diff_check": true,
+    "home_modified": false,
+    "installation_executed": false,
+    "network_used": false,
+    "passed": 8,
+    "tests": 8
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "audited_at_utc": "2026-10-25T11:41:00.300908+00:00",
+  "benchmark_session": "2026-10-25T113152.111380_0000_43aecc1c",
+  "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+  "trace_metadata_sha256": "5ac8b43f9e576c8263e7486b4df3e12f39242ed242efd4f9735b3ffb681ce4fb",
+  "trace_session": "results/project2/diagnostics/aaaea78b1d90460c91df9e18816974a5_trace",
+  "variants": {
+    "A": {
+      "batch_size": 8,
+      "compute_streams": [
+        13
+      ],
+      "copy_streams": [
+        13
+      ],
+      "cpu_stream_sync_count": 12,
+      "forward_internal_d2h_bytes": [
+        1,
+        1,
+        1
+      ],
+      "forward_internal_d2h_count": 3,
+      "forward_internal_stream_sync_count": 3,
+      "gpu_activity_envelope_us": 9020.71817578125,
+      "gpu_kernel_union_us": 7262.867999999998,
+      "h2d_count": 6,
+      "h2d_kernel_overlap_us": 0.0,
+      "h2d_total_duration_us": 2.1109999999999998,
+      "internal_cpu_scalar_ops": {
+        "aten::_local_scalar_dense": 3,
+        "aten::is_nonzero": 3,
+        "aten::item": 3
+      },
+      "kernel_count": 366,
+      "limitations": "One profiled B=8,N=19 sequence; instrumentation changes timing. Event interval overlap, not hardware saturation evidence.",
+      "logits_d2h_count": 3,
+      "overlap_observed": false,
+      "per_batch": [
+        {
+          "batch": 0,
+          "first_kernel_us": 180.1591796875,
+          "h2d_duration_us": 0.8,
+          "input_bytes": 8192,
+          "kernel_count": 112,
+          "last_kernel_end_us": 3470.573181640625,
+          "previous_forward_kernel_overlap_us": 0.0
+        },
+        {
+          "batch": 1,
+          "first_kernel_us": 3609.356201171875,
+          "h2d_duration_us": 0.735,
+          "input_bytes": 8192,
+          "kernel_count": 112,
+          "last_kernel_end_us": 6764.82605859375,
+          "previous_forward_kernel_overlap_us": 0.0
+        },
+        {
+          "batch": 2,
+          "first_kernel_us": 6892.730224609375,
+          "h2d_duration_us": 0.576,
+          "input_bytes": 3072,
+          "kernel_count": 142,
+          "last_kernel_end_us": 9013.5501796875,
+          "previous_forward_kernel_overlap_us": 0.0
+        }
+      ],
+      "sample_count": 19,
+      "stream_wait_event_count": 0,
+      "trace_sha256": "6d9e40423fd9c7ddba873bc9665146e5a8bc351d4f9829c3e1ce260b47810b54"
+    },
+    "C": {
+      "batch_size": 8,
+      "compute_streams": [
+        17
+      ],
+      "copy_streams": [
+        17
+      ],
+      "cpu_stream_sync_count": 3,
+      "forward_internal_d2h_bytes": [
+        1,
+        1,
+        1
+      ],
+      "forward_internal_d2h_count": 3,
+      "forward_internal_stream_sync_count": 3,
+      "gpu_activity_envelope_us": 8244.403984375,
+      "gpu_kernel_union_us": 7268.349999999994,
+      "h2d_count": 6,
+      "h2d_kernel_overlap_us": 0.0,
+      "h2d_total_duration_us": 3.808,
+      "internal_cpu_scalar_ops": {
+        "aten::_local_scalar_dense": 3,
+        "aten::is_nonzero": 3,
+        "aten::item": 3
+      },
+      "kernel_count": 366,
+      "limitations": "One profiled B=8,N=19 sequence; instrumentation changes timing. Event interval overlap, not hardware saturation evidence.",
+      "logits_d2h_count": 3,
+      "overlap_observed": false,
+      "per_batch": [
+        {
+          "batch": 0,
+          "first_kernel_us": 94.782958984375,
+          "h2d_duration_us": 0.768,
+          "input_bytes": 8192,
+          "kernel_count": 112,
+          "last_kernel_end_us": 3210.57508203125,
+          "previous_forward_kernel_overlap_us": 0.0
+        },
+        {
+          "batch": 1,
+          "first_kernel_us": 3219.151123046875,
+          "h2d_duration_us": 1.6,
+          "input_bytes": 8192,
+          "kernel_count": 112,
+          "last_kernel_end_us": 6226.783177734375,
+          "previous_forward_kernel_overlap_us": 0.0
+        },
+        {
+          "batch": 2,
+          "first_kernel_us": 6245.087158203125,
+          "h2d_duration_us": 1.44,
+          "input_bytes": 3072,
+          "kernel_count": 142,
+          "last_kernel_end_us": 8242.1000546875,
+          "previous_forward_kernel_overlap_us": 0.0
+        }
+      ],
+      "sample_count": 19,
+      "stream_wait_event_count": 0,
+      "trace_sha256": "5e9f77b1e6f212617b6b3ea42eb304931fd7b11563a81a5f77cf6544aff55ed4"
+    },
+    "D": {
+      "batch_size": 8,
+      "compute_streams": [
+        21
+      ],
+      "copy_streams": [
+        25
+      ],
+      "cpu_stream_sync_count": 3,
+      "forward_internal_d2h_bytes": [
+        1,
+        1,
+        1
+      ],
+      "forward_internal_d2h_count": 3,
+      "forward_internal_stream_sync_count": 3,
+      "gpu_activity_envelope_us": 8256.43008984375,
+      "gpu_kernel_union_us": 7274.842999999987,
+      "h2d_count": 6,
+      "h2d_kernel_overlap_us": 1.4079999999989923,
+      "h2d_total_duration_us": 2.56,
+      "internal_cpu_scalar_ops": {
+        "aten::_local_scalar_dense": 3,
+        "aten::is_nonzero": 3,
+        "aten::item": 3
+      },
+      "kernel_count": 366,
+      "limitations": "One profiled B=8,N=19 sequence; instrumentation changes timing. Event interval overlap, not hardware saturation evidence.",
+      "logits_d2h_count": 3,
+      "overlap_observed": true,
+      "per_batch": [
+        {
+          "batch": 0,
+          "first_kernel_us": 107.647216796875,
+          "h2d_duration_us": 1.1520000000000001,
+          "input_bytes": 8192,
+          "kernel_count": 112,
+          "last_kernel_end_us": 3225.0371015625,
+          "previous_forward_kernel_overlap_us": 0.0
+        },
+        {
+          "batch": 1,
+          "first_kernel_us": 3234.28515625,
+          "h2d_duration_us": 0.832,
+          "input_bytes": 8192,
+          "kernel_count": 112,
+          "last_kernel_end_us": 6249.594177734375,
+          "previous_forward_kernel_overlap_us": 0.83199999999988
+        },
+        {
+          "batch": 2,
+          "first_kernel_us": 6258.106201171875,
+          "h2d_duration_us": 0.576,
+          "input_bytes": 3072,
+          "kernel_count": 142,
+          "last_kernel_end_us": 8251.1180859375,
+          "previous_forward_kernel_overlap_us": 0.5759999999991123
+        }
+      ],
+      "sample_count": 19,
+      "stream_wait_event_count": 4,
+      "trace_sha256": "d93e2fea21cb76a72adddde5018f8c550698c0faf44e6d0947447faa0f91a5b7"
+    }
+  }
+}

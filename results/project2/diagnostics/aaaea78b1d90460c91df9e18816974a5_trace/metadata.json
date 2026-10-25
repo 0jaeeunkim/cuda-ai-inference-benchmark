@@ -1,0 +1,16 @@
+{
+  "identity": {
+    "environment_sha256": "910146957dbf7b1b5000d900063643b819208df900cc609f13e76b417a0878fd",
+    "project1_manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "protocol_sha256": "af20bd21bbe26d2bc71d9e3bf89ca6fd52695b08a8f130d12bfa91e10754fd78",
+    "runtime_sha256": "055c434e617192e677445c0d72a12fa969afc4d831a35a3549101b0ddb52a9b5",
+    "workload_sha256": "9fdaa3ba54e92a39e84fd8cbe059c681a34f8e66dbb5002b36cc5fc66d638381"
+  },
+  "overlap": "uninspected",
+  "smoke_gate": {
+    "gate_sha256": "de2dc6dda5f097305a18b83300cbd4a58c41111ebc51d93a556348f4a0b15261",
+    "session_id": "2026-10-25T112508.818449_0000_40f9eefb"
+  },
+  "status": "completed",
+  "timing_used_in_benchmark": false
+}

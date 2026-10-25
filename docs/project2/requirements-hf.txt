@@ -1,0 +1,6 @@
+# Project 1 versions, verified against official PyPI metadata on 2026-10-25.
+# Install CUDA PyTorch separately from https://download.pytorch.org/whl/cu130.
+transformers==5.16.1
+datasets==5.0.1
+tokenizers==0.23.2
+huggingface-hub==1.32.0

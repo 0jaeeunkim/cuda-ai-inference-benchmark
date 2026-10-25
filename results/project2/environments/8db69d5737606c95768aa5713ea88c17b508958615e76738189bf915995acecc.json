@@ -1,0 +1,33 @@
+{
+  "blockers": [
+    "Missing packages: torch, transformers, datasets, tokenizers, huggingface-hub"
+  ],
+  "cache": {
+    "HF_DATASETS_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/datasets",
+    "HF_DATASETS_OFFLINE": "1",
+    "HF_HOME": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface",
+    "HF_HUB_CACHE": "/home/jekim/cuda/cuda-ai-inference-benchmark/.cache/huggingface/hub",
+    "HF_HUB_OFFLINE": "1"
+  },
+  "conda_executable": null,
+  "gpu_driver_query": "NVIDIA GeForce RTX 5070 Ti, 595.99.02, 12.0",
+  "machine": "x86_64",
+  "packages": {
+    "datasets": null,
+    "huggingface-hub": null,
+    "tokenizers": null,
+    "torch": null,
+    "transformers": null
+  },
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "project1": {
+    "files_checked": 85,
+    "manifest_sha256": "b56c80795aba86c240dbd4dec6efbddd1273d009f4019bfea9692da279da1873",
+    "passed": true
+  },
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "python_executable": "/usr/bin/python3",
+  "recorded_at_utc": "2026-10-25T10:41:05.863507+00:00",
+  "snapshot_id": "8db69d5737606c95768aa5713ea88c17b508958615e76738189bf915995acecc",
+  "status": "blocked"
+}
